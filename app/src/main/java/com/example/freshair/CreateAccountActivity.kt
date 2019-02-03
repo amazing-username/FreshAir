@@ -54,6 +54,7 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
      */
     private var mAuthTask: UserCreateTask? = null
     private var focusView: View? = null
+    private var alert: AlertDialog? = null
     private var cancel: Boolean = false
 
     private var fieldValues: HashMap<String, String> = HashMap<String, String>()
@@ -70,45 +71,6 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
         usersDBHelper = UsersDBHelper(this)
 
         create_account_button.setOnClickListener { createAccount() }
-    }
-
-    private fun populateAutoComplete() {
-        if (!mayRequestContacts()) {
-            return
-        }
-
-        loaderManager.initLoader(0, null, this)
-    }
-
-    private fun mayRequestContacts(): Boolean {
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-            return true
-        }
-        if (checkSelfPermission(READ_CONTACTS) == PackageManager.PERMISSION_GRANTED) {
-            return true
-        }
-        if (shouldShowRequestPermissionRationale(READ_CONTACTS)) {
-            Snackbar.make(email, R.string.permission_rationale, Snackbar.LENGTH_INDEFINITE)
-                .setAction(android.R.string.ok,
-                    { requestPermissions(arrayOf(READ_CONTACTS), REQUEST_READ_CONTACTS) })
-        } else {
-            requestPermissions(arrayOf(READ_CONTACTS), REQUEST_READ_CONTACTS)
-        }
-        return false
-    }
-
-    /**
-     * Callback received when a permissions request has been completed.
-     */
-    override fun onRequestPermissionsResult(
-        requestCode: Int, permissions: Array<String>,
-        grantResults: IntArray
-    ) {
-        if (requestCode == REQUEST_READ_CONTACTS) {
-            if (grantResults.size == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                populateAutoComplete()
-            }
-        }
     }
 
     /**
@@ -148,18 +110,8 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
                 fieldValues["username"].toString(), fieldValues["password"].toString())
             mAuthTask = UserCreateTask(user)
             mAuthTask!!.execute(null as Void?)
-            val dialogBuilder = AlertDialog.Builder(this@CreateAccountActivity)
-            val jsonObj = "sdsdsd"
-            dialogBuilder.setMessage(jsonObj.toString())
-                .setCancelable(false)
-                .setPositiveButton("Ok", DialogInterface.OnClickListener { dialog, id ->
-                    finish()
-                })
-            val alert = dialogBuilder.create()
-            alert.setTitle("Response results")
-            alert.show()
-            runBlocking {
-            }
+
+            createAccountResult()
         }
     }
 
@@ -348,6 +300,23 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
 
     }
 
+    private fun createAccountResult() {
+        val dialogBuilder = AlertDialog.Builder(this)
+        val jsonObj = "sdsdsd"
+
+        dialogBuilder.setMessage(jsonObj.toString())
+            .setCancelable(false)
+            .setPositiveButton("Ok", DialogInterface.OnClickListener { dialog, id ->
+                finish()
+            })
+            .setNegativeButton("No", DialogInterface.OnClickListener { dialog, id ->
+                dialog.cancel()
+            })
+        alert = dialogBuilder.create()
+        alert!!.setTitle("Response results")
+        alert!!.show()
+    }
+
     object ProfileQuery {
         val PROJECTION = arrayOf(
             ContactsContract.CommonDataKinds.Email.ADDRESS,
@@ -364,17 +333,12 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
     inner class UserCreateTask internal constructor(private val user: Um) :
         AsyncTask<Void, Void, Boolean>() {
 
-        val dialogBuilder = AlertDialog.Builder(this@CreateAccountActivity)
         var strResp: String? = null
         var jsonObj: JSONObject? = null
 
         override fun doInBackground(vararg params: Void): Boolean? {
-            // TODO: attempt authentication against a network service.
-
             val queue = Volley.newRequestQueue(this@CreateAccountActivity)
             val url = "http://50.88.81.55:8024/api/user/"
-            val response: String? = null
-            val finalResponse = response
 
             try {
 
@@ -386,11 +350,10 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
                 jObj.put("password", user.password)
 
 
-                val postRequest =
-                    object : JsonObjectRequest(Request.Method.POST, url, jObj, Response.Listener { response ->
+                val postRequest = object : JsonObjectRequest(Request.Method.POST, url, jObj, Response.Listener { response ->
 
-                        strResp = response.toString()
-                        jsonObj = JSONObject(strResp)
+                    strResp = response.toString()
+                    jsonObj = JSONObject(strResp)
 
                     }, Response.ErrorListener {
                         //TODO: error handling here
@@ -433,19 +396,5 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
             mAuthTask = null
             showProgress(false)
         }
-    }
-
-    companion object {
-
-        /**
-         * Id to identity READ_CONTACTS permission request.
-         */
-        private val REQUEST_READ_CONTACTS = 0
-
-        /**
-         * A dummy authentication store containing known user names and passwords.
-         * TODO: remove after connecting to a real authentication system.
-         */
-        private val DUMMY_CREDENTIALS = arrayOf("foo@example.com:hello", "bar@example.com:world")
     }
 }
