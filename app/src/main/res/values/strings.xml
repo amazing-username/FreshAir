@@ -21,4 +21,6 @@
     <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
     <string name="title_activity_create_account">Create an account</string>
+
+    <string name="api_address">http://50.88.81.55:5510/api/</string>
 </resources>

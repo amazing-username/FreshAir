@@ -6,8 +6,10 @@ import android.annotation.TargetApi
 import android.content.pm.PackageManager
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
+import android.app.AlertDialog
 import android.app.LoaderManager.LoaderCallbacks
 import android.content.CursorLoader
+import android.content.DialogInterface
 import android.content.Loader
 import android.database.Cursor
 import kotlin.collections.HashMap
@@ -25,11 +27,22 @@ import android.widget.TextView
 import java.util.ArrayList
 import android.Manifest.permission.READ_CONTACTS
 import android.support.design.widget.TextInputEditText
+import com.android.volley.DefaultRetryPolicy
 
 import kotlinx.android.synthetic.main.activity_create_account.*
+import kotlinx.coroutines.*
+
+import com.android.volley.Request
+import com.android.volley.Response
+import com.android.volley.toolbox.JsonObjectRequest
+import com.android.volley.toolbox.StringRequest
+import com.android.volley.toolbox.Volley
+import org.json.JSONArray
+import org.json.JSONObject
 
 import com.example.freshair.database.DBContract
 import com.example.freshair.database.UsersDBHelper
+import java.lang.Exception
 import com.example.freshair.models.User as Um
 
 /**
@@ -135,6 +148,18 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
                 fieldValues["username"].toString(), fieldValues["password"].toString())
             mAuthTask = UserCreateTask(user)
             mAuthTask!!.execute(null as Void?)
+            val dialogBuilder = AlertDialog.Builder(this@CreateAccountActivity)
+            val jsonObj = "sdsdsd"
+            dialogBuilder.setMessage(jsonObj.toString())
+                .setCancelable(false)
+                .setPositiveButton("Ok", DialogInterface.OnClickListener { dialog, id ->
+                    finish()
+                })
+            val alert = dialogBuilder.create()
+            alert.setTitle("Response results")
+            alert.show()
+            runBlocking {
+            }
         }
     }
 
@@ -236,7 +261,7 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
     }
 
     private fun isPasswordValid(password: String): Boolean {
-        return password.length > 4
+        return password.length >= 1
     }
 
     private fun isPasswordMatching(password: String, passwordConfirm: String) : Boolean {
@@ -339,27 +364,57 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
     inner class UserCreateTask internal constructor(private val user: Um) :
         AsyncTask<Void, Void, Boolean>() {
 
-        val mEmail = user.email
-        val mPassword = user.password
+        val dialogBuilder = AlertDialog.Builder(this@CreateAccountActivity)
+        var strResp: String? = null
+        var jsonObj: JSONObject? = null
 
         override fun doInBackground(vararg params: Void): Boolean? {
             // TODO: attempt authentication against a network service.
 
+            val queue = Volley.newRequestQueue(this@CreateAccountActivity)
+            val url = "http://50.88.81.55:8024/api/user/"
+            val response: String? = null
+            val finalResponse = response
+
             try {
-                // Simulate network access.
-                Thread.sleep(2000)
-            } catch (e: InterruptedException) {
-                return false
+
+                val jObj =  JSONObject()
+                jObj.put("first_name", user.firstname)
+                jObj.put("last_name", user.lastname)
+                jObj.put("email", user.email)
+                jObj.put("username", user.username)
+                jObj.put("password", user.password)
+
+
+                val postRequest =
+                    object : JsonObjectRequest(Request.Method.POST, url, jObj, Response.Listener { response ->
+
+                        strResp = response.toString()
+                        jsonObj = JSONObject(strResp)
+
+                    }, Response.ErrorListener {
+                        //TODO: error handling here
+                    }) {
+                        override fun getHeaders(): MutableMap<String, String> {
+                            val headers = HashMap<String, String>()
+                            headers["Accept"] = "application/json"
+                            headers["Content-Type"] = "application/json"
+
+                            return headers
+                        }
+                    }
+
+                postRequest.retryPolicy = DefaultRetryPolicy(
+                    0, DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+                    DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
+                )
+
+                queue.add(postRequest)
+            }
+            catch (ex: Exception) {
             }
 
-            return DUMMY_CREDENTIALS
-                .map { it.split(":") }
-                .firstOrNull { it[0] == mEmail }
-                ?.let {
-                    // Account exists, return true if the password matches.
-                    it[1] == mPassword
-                }
-                ?: true
+            return true
         }
 
         override fun onPostExecute(success: Boolean?) {
