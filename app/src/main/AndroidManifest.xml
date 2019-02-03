@@ -15,7 +15,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name=".createAccount"
+                android:name=".CreateAccountActivity"
                 android:label="@string/title_activity_create_account"
                 android:parentActivityName=".LoginActivity">
             <meta-data

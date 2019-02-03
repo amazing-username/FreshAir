@@ -3,6 +3,7 @@ package com.example.freshair
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
 import android.annotation.TargetApi
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
@@ -147,6 +148,9 @@ class LoginActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
 
     private fun createAccount() {
 
+
+        val intent =   Intent (  this, CreateAccountActivity::class.java)
+        startActivity(intent)
     }
 
     private fun isEmailValid(email: String): Boolean {

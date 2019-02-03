@@ -10,6 +10,7 @@ import android.app.LoaderManager.LoaderCallbacks
 import android.content.CursorLoader
 import android.content.Loader
 import android.database.Cursor
+import kotlin.collections.HashMap
 import android.net.Uri
 import android.os.AsyncTask
 import android.os.Build
@@ -23,33 +24,39 @@ import android.widget.TextView
 
 import java.util.ArrayList
 import android.Manifest.permission.READ_CONTACTS
+import android.support.design.widget.TextInputEditText
 
 import kotlinx.android.synthetic.main.activity_create_account.*
+
+import com.example.freshair.database.DBContract
+import com.example.freshair.database.UsersDBHelper
+import com.example.freshair.models.User as Um
 
 /**
  * A login screen that offers login via email/password.
  */
-class createAccount : AppCompatActivity(), LoaderCallbacks<Cursor> {
+class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
     /**
      * Keep track of the login task to ensure we can cancel it if requested.
      */
-    private var mAuthTask: UserLoginTask? = null
+    private var mAuthTask: UserCreateTask? = null
+    private var focusView: View? = null
+    private var cancel: Boolean = false
+
+    private var fieldValues: HashMap<String, String> = HashMap<String, String>()
+
+    private lateinit var  textInput : TextInputEditText
+
+    lateinit var usersDBHelper: UsersDBHelper
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_account)
         setupActionBar()
-        // Set up the login form.
-        populateAutoComplete()
-        passwordConfirm.setOnEditorActionListener(TextView.OnEditorActionListener { _, id, _ ->
-            if (id == EditorInfo.IME_ACTION_DONE || id == EditorInfo.IME_NULL) {
-                attemptLogin()
-                return@OnEditorActionListener true
-            }
-            false
-        })
 
-        create_account_button.setOnClickListener { attemptLogin() }
+        usersDBHelper = UsersDBHelper(this)
+
+        create_account_button.setOnClickListener { createAccount() }
     }
 
     private fun populateAutoComplete() {
@@ -107,61 +114,139 @@ class createAccount : AppCompatActivity(), LoaderCallbacks<Cursor> {
      * If there are form errors (invalid email, missing fields, etc.), the
      * errors are presented and no actual login attempt is made.
      */
-    private fun attemptLogin() {
+    private fun createAccount() {
         if (mAuthTask != null) {
             return
         }
 
-        // Reset errors.
-        email.error = null
-        passwordConfirm.error = null
+        configureFieldValues()
 
-        // Store values at the time of the login attempt.
-        val emailStr = email.text.toString()
-        val passwordStr = passwordConfirm.text.toString()
+        cancel = false
+        focusView = null
 
-        var cancel = false
-        var focusView: View? = null
+        validateFields()
 
-        // Check for a valid password, if the user entered one.
-        if (!TextUtils.isEmpty(passwordStr) && !isPasswordValid(passwordStr)) {
-            passwordConfirm.error = getString(R.string.error_invalid_password)
-            focusView = passwordConfirm
-            cancel = true
-        }
-
-        // Check for a valid email address.
-        if (TextUtils.isEmpty(emailStr)) {
-            email.error = getString(R.string.error_field_required)
-            focusView = email
-            cancel = true
-        } else if (!isEmailValid(emailStr)) {
-            email.error = getString(R.string.error_invalid_email)
-            focusView = email
-            cancel = true
-        }
 
         if (cancel) {
-            // There was an error; don't attempt login and focus the first
-            // form field with an error.
             focusView?.requestFocus()
         } else {
-            // Show a progress spinner, and kick off a background task to
-            // perform the user login attempt.
             showProgress(true)
-            mAuthTask = UserLoginTask(emailStr, passwordStr)
+            var user  = Um(fieldValues["firstname"].toString(), fieldValues["lastname"].toString(), fieldValues["email"].toString(),
+                fieldValues["username"].toString(), fieldValues["password"].toString())
+            mAuthTask = UserCreateTask(user)
             mAuthTask!!.execute(null as Void?)
         }
     }
 
+    private fun configureFieldValues() {
+        fieldValues["firstname"] =  firstname.text.toString()
+        fieldValues["lastname"] =  lastname.text.toString()
+        fieldValues["email"] =  email.text.toString()
+        fieldValues["username"] =  username.text.toString()
+        fieldValues["password"] =  password.text.toString()
+        fieldValues["passwordConfirm"] =  passwordConfirm.text.toString()
+    }
+    private  fun validateFields() {
+        if (areFieldsEmpty()) {
+            return
+        }
+
+        if (!isPasswordValid(fieldValues["password"].toString())) {
+            password.error = getString(R.string.error_invalid_password)
+            focusView = password
+            cancel = true
+        }
+
+        if (!isPasswordMatching(fieldValues["password"].toString(),fieldValues["passwordConfirm"].toString())) {
+            password.error = "Passwords do not match"
+            focusView = password
+            cancel = true
+        }
+
+        if (!isEmailValid(fieldValues["email"].toString())) {
+            email.error = getString(R.string.error_invalid_email)
+            focusView = email
+            cancel = true
+        }
+    }
+    private fun areFieldsEmpty() : Boolean {
+
+        var fieldLabels = LinkedHashSet<String>()
+        fieldLabels.add("firstname")
+        fieldLabels.add("lastname")
+        fieldLabels.add("email")
+        fieldLabels.add("username")
+        fieldLabels.add("password")
+        fieldLabels.add("passwordConfirm")
+
+        for (field: String in fieldLabels) {
+            when (field) {
+                "firstname" -> {
+                    if (TextUtils.isEmpty(fieldValues[field].toString())) {
+                        firstname.error = getString(R.string.error_field_required)
+                        focusView = email
+                        cancel = true
+                        return true
+                    }
+                }
+                "lastname" -> {
+                    if (TextUtils.isEmpty(fieldValues[field].toString())) {
+                        lastname.error = getString(R.string.error_field_required)
+                        focusView = lastname
+                        cancel = true
+                        return true
+                    }
+                }
+                "email" -> {
+                    if (TextUtils.isEmpty(fieldValues[field].toString())) {
+                        focusView = email
+                        cancel = true
+                        return true
+                    }
+                }
+                "username" -> {
+                    if (TextUtils.isEmpty(fieldValues[field].toString())) {
+                        focusView = username
+                        cancel = true
+                        return true
+                    }
+                }
+                "password" -> {
+                    if (TextUtils.isEmpty(fieldValues[field].toString())) {
+                        focusView = password
+                        cancel = true
+                        return true
+                    }
+                }
+                "passwordConfirm" -> {
+                    if (TextUtils.isEmpty(fieldValues[field].toString())) {
+                        focusView = passwordConfirm
+                        cancel = true
+                        return true
+                    }
+                }
+            }
+        }
+
+        return false
+    }
+
     private fun isEmailValid(email: String): Boolean {
-        //TODO: Replace this with your own logic
         return email.contains("@")
     }
 
     private fun isPasswordValid(password: String): Boolean {
-        //TODO: Replace this with your own logic
         return password.length > 4
+    }
+
+    private fun isPasswordMatching(password: String, passwordConfirm: String) : Boolean {
+        var result = true
+
+        if (!password.equals(passwordConfirm, ignoreCase = true)) {
+            result = false
+         }
+
+        return result
     }
 
     /**
@@ -231,15 +316,10 @@ class createAccount : AppCompatActivity(), LoaderCallbacks<Cursor> {
             cursor.moveToNext()
         }
 
-        addEmailsToAutoComplete(emails)
+        //addEmailsToAutoComplete(emails)
     }
 
     override fun onLoaderReset(cursorLoader: Loader<Cursor>) {
-
-    }
-
-    private fun addEmailsToAutoComplete(emailAddressCollection: List<String>) {
-        //Create adapter to tell the AutoCompleteTextView what to show in its dropdown list.
 
     }
 
@@ -256,8 +336,11 @@ class createAccount : AppCompatActivity(), LoaderCallbacks<Cursor> {
      * Represents an asynchronous login/registration task used to authenticate
      * the user.
      */
-    inner class UserLoginTask internal constructor(private val mEmail: String, private val mPassword: String) :
+    inner class UserCreateTask internal constructor(private val user: Um) :
         AsyncTask<Void, Void, Boolean>() {
+
+        val mEmail = user.email
+        val mPassword = user.password
 
         override fun doInBackground(vararg params: Void): Boolean? {
             // TODO: attempt authentication against a network service.
