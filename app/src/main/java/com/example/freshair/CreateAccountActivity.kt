@@ -58,6 +58,7 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
     private var cancel: Boolean = false
 
     private var fieldValues: HashMap<String, String> = HashMap<String, String>()
+    private var result: String? = null
 
     private lateinit var  textInput : TextInputEditText
 
@@ -108,12 +109,29 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
             showProgress(true)
             var user  = Um(fieldValues["firstname"].toString(), fieldValues["lastname"].toString(), fieldValues["email"].toString(),
                 fieldValues["username"].toString(), fieldValues["password"].toString())
-            mAuthTask = UserCreateTask(user)
-            mAuthTask!!.execute(null as Void?)
 
-            createAccountResult()
+                mAuthTask = UserCreateTask(user)
+                mAuthTask!!.execute(null as Void?)
+
         }
     }
+    private fun createAccountResult(result: String?) {
+        val dialogBuilder = AlertDialog.Builder(this)
+        val jsonObj = "sdsdsd"
+
+        dialogBuilder.setMessage(result)
+            .setCancelable(false)
+            .setPositiveButton("Ok", DialogInterface.OnClickListener { dialog, id ->
+                finish()
+            })
+            .setNegativeButton("No", DialogInterface.OnClickListener { dialog, id ->
+                dialog.cancel()
+            })
+        alert = dialogBuilder.create()
+        alert!!.setTitle("Response results")
+        alert!!.show()
+    }
+
 
     private fun configureFieldValues() {
         fieldValues["firstname"] =  firstname.text.toString()
@@ -300,22 +318,6 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
 
     }
 
-    private fun createAccountResult() {
-        val dialogBuilder = AlertDialog.Builder(this)
-        val jsonObj = "sdsdsd"
-
-        dialogBuilder.setMessage(jsonObj.toString())
-            .setCancelable(false)
-            .setPositiveButton("Ok", DialogInterface.OnClickListener { dialog, id ->
-                finish()
-            })
-            .setNegativeButton("No", DialogInterface.OnClickListener { dialog, id ->
-                dialog.cancel()
-            })
-        alert = dialogBuilder.create()
-        alert!!.setTitle("Response results")
-        alert!!.show()
-    }
 
     object ProfileQuery {
         val PROJECTION = arrayOf(
@@ -352,6 +354,10 @@ class CreateAccountActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
 
                 val postRequest = object : JsonObjectRequest(Request.Method.POST, url, jObj, Response.Listener { response ->
 
+                    val intent = intent
+
+                    result = response.toString()
+                    intent.putExtra("results", response.toString())
                     strResp = response.toString()
                     jsonObj = JSONObject(strResp)
 
