@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Rg.Plugins.Popup.Pages;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FreshAir
+namespace FreshAir.Views.Popups
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class CreateAccountPage : ContentView
+	public partial class LoadingPage : ContentPage
 	{
-		public CreateAccountPage ()
+		public LoadingPage ()
 		{
 			InitializeComponent ();
 		}

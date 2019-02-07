@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FreshAir
+namespace FreshAir.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LandingPageMaster : ContentPage
