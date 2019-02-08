@@ -12,6 +12,8 @@ using Xamarin.Forms.Xaml;
 using FreshAir.Management;
 using FreshAir.Models;
 
+using User = FreshAir.Management.RegisterManager.User;
+
 namespace FreshAir.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]

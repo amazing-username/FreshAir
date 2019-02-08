@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
+using RestSharp;
+
 namespace FreshAir.Models
 {
     public class Management
@@ -17,6 +19,10 @@ namespace FreshAir.Models
             UrlBase = "http://50.88.81.55:8024/";
         }
 
-        public string UrlBase { set; get; }
+        
+        protected RestClient Client { set; get; }
+        protected RestRequest Request { set; get; }
+        protected IRestResponse Response { set; get; }
+        protected string UrlBase { set; get; }
     }
 }

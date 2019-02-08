@@ -30,22 +30,19 @@ namespace FreshAir.Management
 
 
         public User UserAccount { set; get; }
-        private RestClient Client { set; get; }
-        private RestRequest Request { set; get; }
-        private IRestResponse Response { set; get; }
+        public class User : BaseUser
+        {
+            [JsonProperty("first_name")]
+            public string Firstname { set; get; }
+            [JsonProperty("last_name")]
+            public string Lastname { set; get; }
+            [JsonProperty("email")]
+            public string Email { set; get; }
+            [JsonProperty("password")]
+            public string Password { set; get; }
+            [JsonIgnore]
+            public string PasswordConfirm { set; get; }
+        }
     }
 
-    public class User : BaseUser
-    {
-        [JsonProperty("first_name")]
-        public string Firstname { set; get; }
-        [JsonProperty("last_name")]
-        public string Lastname { set; get; }
-        [JsonProperty("email")]
-        public string Email { set; get; }
-        [JsonProperty("password")]
-        public string Password { set; get; }
-        [JsonIgnore]
-        public string PasswordConfirm { set; get; }
-    }
 }
