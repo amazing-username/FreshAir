@@ -33,8 +33,8 @@ namespace FreshAir.Views
             {
                 MenuItems = new ObservableCollection<LandingPageMenuItem>(new[]
                 {
-                    new LandingPageMenuItem { Id = 0, Title = "Page 1" },
-                    new LandingPageMenuItem { Id = 1, Title = "Page 2" },
+                    new LandingPageMenuItem { Id = 0, Title = "FreshAir" },
+                    new LandingPageMenuItem { Id = 1, Title = "Settings" },
                     new LandingPageMenuItem { Id = 2, Title = "Page 3" },
                     new LandingPageMenuItem { Id = 3, Title = "Page 4" },
                     new LandingPageMenuItem { Id = 4, Title = "Page 5" },

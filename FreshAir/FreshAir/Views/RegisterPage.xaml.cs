@@ -37,16 +37,21 @@ namespace FreshAir.Views
             };
         }
 
-        private async void Register_Clicked(object sender, EventArgs e)
+        private void Register_Clicked(object sender, EventArgs e)
         {
             Register.IsEnabled = false;
 
-            var user = await PopulateUser();
+            var user = PopulateUser().Result;
 
             RegisterManager regUser = new RegisterManager(user);
             regUser.RegisterAccount();
 
             Register.IsEnabled = true;
+            if (regUser.RegistrationSuccessful())
+            {
+                Navigation.PopModalAsync(true);
+            }
+            return;
         }
     }
 
