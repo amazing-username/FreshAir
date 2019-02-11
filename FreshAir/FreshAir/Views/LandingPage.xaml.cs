@@ -16,6 +16,23 @@ namespace FreshAir.Views
         {
             InitializeComponent();
             MasterPage.ListView.ItemSelected += ListView_ItemSelected;
+
+            Init(new LandingPageMenuItem
+            {
+                Id = 0,
+                Title = "Home"
+            });
+        }
+
+        private void Init(LandingPageMenuItem item)
+        {
+            var page = (Page)Activator.CreateInstance(item.TargetType);
+            page.Title = item.Title;
+
+            Detail = new NavigationPage(page);
+            IsPresented = false;
+
+            MasterPage.ListView.SelectedItem = null;
         }
 
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -24,13 +41,7 @@ namespace FreshAir.Views
             if (item == null)
                 return;
 
-            var page = (Page)Activator.CreateInstance(item.TargetType);
-            page.Title = item.Title;
-
-            Detail = new NavigationPage(page);
-            IsPresented = false;
-
-            MasterPage.ListView.SelectedItem = null;
+            Init(item);
         }
     }
 }

@@ -13,6 +13,15 @@ namespace FreshAir.Views
         {
             TargetType = typeof(LandingPageDetail);
         }
+        public LandingPageMenuItem(int type)
+        {
+            switch (type)
+            {
+                case 1:
+                    TargetType = typeof(Settings);
+                    break;
+            }
+        }
         public int Id { get; set; }
         public string Title { get; set; }
 

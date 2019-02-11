@@ -8,6 +8,8 @@ using RestSharp;
 using FreshAir.Management;
 using FreshAir.Models;
 
+using UserDBModel = FreshAir.Management.DatabaseManagement.User;
+
 namespace FreshAir.Management
 {
     public class LoginManager : FreshAir.Models.Management
@@ -34,6 +36,18 @@ namespace FreshAir.Management
             Response = Client.Execute(Request);
 
             Result = JsonConvert.DeserializeObject<LoginResult>(Response.Content);
+        }
+        public void SaveCredentials()
+        {
+            var user = new UserDBModel
+            {
+                Id = Result.Id,
+                Username = UserAccount.Username,
+                Password = UserAccount.Password,
+                SaveCredentials = true
+            };
+            DatabaseManagement freshAirDatabase = new DatabaseManagement();
+            freshAirDatabase.SaveCredentials(user);
         }
         public bool LoginSuccessful()
         {

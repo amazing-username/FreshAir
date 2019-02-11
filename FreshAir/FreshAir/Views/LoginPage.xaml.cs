@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Messier16.Forms.Controls;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using FreshAir.Management;
 
 using User = FreshAir.Management.LoginManager.User;
+using UserDBModel = FreshAir.Management.DatabaseManagement.User;
 
 namespace FreshAir.Views
 {
@@ -18,8 +20,23 @@ namespace FreshAir.Views
         public LoginPage()
         {
             InitializeComponent();
+            PopulateCredentials();
         }
 
+
+        private void PopulateCredentials()
+        {
+            DatabaseManagement db = new DatabaseManagement();
+            if (!db.TableExists("User"))
+            {
+                return;
+            }
+
+            var usr = db.RetrieveCredentials();
+            UserName.Text = usr.Username;
+            Password.Text = usr.Password;
+            WillSaveCredentials.Checked = usr.SaveCredentials;
+        }
 
         private void Login_Clicked(object sender, EventArgs e)
         {
@@ -32,6 +49,8 @@ namespace FreshAir.Views
             Login.IsEnabled = true;
             if (lm.LoginSuccessful())
             {
+                if (WillSaveCredentials.Checked)
+                    lm.SaveCredentials();
                 App.Current.MainPage = new LandingPage();
             }
         }

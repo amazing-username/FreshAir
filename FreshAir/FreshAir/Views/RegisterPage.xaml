@@ -4,7 +4,6 @@
              x:Class="FreshAir.Views.RegisterPage">
   <ContentPage.Content>
       <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
           <Entry x:Name="Firstname"
                Placeholder="Firstname" />
           <Entry x:Name="Lastname"

@@ -26,6 +26,2116 @@ namespace FreshAir.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Messier16.Forms.Android.Controls.Resource.Animation.abc_fade_in = global::FreshAir.Droid.Resource.Animation.abc_fade_in;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.abc_fade_out = global::FreshAir.Droid.Resource.Animation.abc_fade_out;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.abc_grow_fade_in_from_bottom = global::FreshAir.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.abc_popup_enter = global::FreshAir.Droid.Resource.Animation.abc_popup_enter;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.abc_popup_exit = global::FreshAir.Droid.Resource.Animation.abc_popup_exit;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.abc_shrink_fade_out_from_bottom = global::FreshAir.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.abc_slide_in_bottom = global::FreshAir.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.abc_slide_in_top = global::FreshAir.Droid.Resource.Animation.abc_slide_in_top;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.abc_slide_out_bottom = global::FreshAir.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.abc_slide_out_top = global::FreshAir.Droid.Resource.Animation.abc_slide_out_top;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.design_bottom_sheet_slide_in = global::FreshAir.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.design_bottom_sheet_slide_out = global::FreshAir.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.design_snackbar_in = global::FreshAir.Droid.Resource.Animation.design_snackbar_in;
+			global::Messier16.Forms.Android.Controls.Resource.Animation.design_snackbar_out = global::FreshAir.Droid.Resource.Animation.design_snackbar_out;
+			global::Messier16.Forms.Android.Controls.Resource.Animator.design_appbar_state_list_animator = global::FreshAir.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionBarDivider = global::FreshAir.Droid.Resource.Attribute.actionBarDivider;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionBarItemBackground = global::FreshAir.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionBarPopupTheme = global::FreshAir.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionBarSize = global::FreshAir.Droid.Resource.Attribute.actionBarSize;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionBarSplitStyle = global::FreshAir.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionBarStyle = global::FreshAir.Droid.Resource.Attribute.actionBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionBarTabBarStyle = global::FreshAir.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionBarTabStyle = global::FreshAir.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionBarTabTextStyle = global::FreshAir.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionBarTheme = global::FreshAir.Droid.Resource.Attribute.actionBarTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionBarWidgetTheme = global::FreshAir.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionButtonStyle = global::FreshAir.Droid.Resource.Attribute.actionButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionDropDownStyle = global::FreshAir.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionLayout = global::FreshAir.Droid.Resource.Attribute.actionLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionMenuTextAppearance = global::FreshAir.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionMenuTextColor = global::FreshAir.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModeBackground = global::FreshAir.Droid.Resource.Attribute.actionModeBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModeCloseButtonStyle = global::FreshAir.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModeCloseDrawable = global::FreshAir.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModeCopyDrawable = global::FreshAir.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModeCutDrawable = global::FreshAir.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModeFindDrawable = global::FreshAir.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModePasteDrawable = global::FreshAir.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModePopupWindowStyle = global::FreshAir.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModeSelectAllDrawable = global::FreshAir.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModeShareDrawable = global::FreshAir.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModeSplitBackground = global::FreshAir.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModeStyle = global::FreshAir.Droid.Resource.Attribute.actionModeStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionModeWebSearchDrawable = global::FreshAir.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionOverflowButtonStyle = global::FreshAir.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionOverflowMenuStyle = global::FreshAir.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionProviderClass = global::FreshAir.Droid.Resource.Attribute.actionProviderClass;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.actionViewClass = global::FreshAir.Droid.Resource.Attribute.actionViewClass;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.activityChooserViewStyle = global::FreshAir.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.alertDialogButtonGroupStyle = global::FreshAir.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.alertDialogCenterButtons = global::FreshAir.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.alertDialogStyle = global::FreshAir.Droid.Resource.Attribute.alertDialogStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.alertDialogTheme = global::FreshAir.Droid.Resource.Attribute.alertDialogTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.allowStacking = global::FreshAir.Droid.Resource.Attribute.allowStacking;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.alpha = global::FreshAir.Droid.Resource.Attribute.alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.arrowHeadLength = global::FreshAir.Droid.Resource.Attribute.arrowHeadLength;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.arrowShaftLength = global::FreshAir.Droid.Resource.Attribute.arrowShaftLength;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.autoCompleteTextViewStyle = global::FreshAir.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.background = global::FreshAir.Droid.Resource.Attribute.background;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.backgroundSplit = global::FreshAir.Droid.Resource.Attribute.backgroundSplit;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.backgroundStacked = global::FreshAir.Droid.Resource.Attribute.backgroundStacked;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.backgroundTint = global::FreshAir.Droid.Resource.Attribute.backgroundTint;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.backgroundTintMode = global::FreshAir.Droid.Resource.Attribute.backgroundTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.barLength = global::FreshAir.Droid.Resource.Attribute.barLength;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.behavior_autoHide = global::FreshAir.Droid.Resource.Attribute.behavior_autoHide;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.behavior_hideable = global::FreshAir.Droid.Resource.Attribute.behavior_hideable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.behavior_overlapTop = global::FreshAir.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.behavior_peekHeight = global::FreshAir.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.behavior_skipCollapsed = global::FreshAir.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.borderWidth = global::FreshAir.Droid.Resource.Attribute.borderWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.borderlessButtonStyle = global::FreshAir.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.bottomSheetDialogTheme = global::FreshAir.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.bottomSheetStyle = global::FreshAir.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.buttonBarButtonStyle = global::FreshAir.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.buttonBarNegativeButtonStyle = global::FreshAir.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.buttonBarNeutralButtonStyle = global::FreshAir.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.buttonBarPositiveButtonStyle = global::FreshAir.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.buttonBarStyle = global::FreshAir.Droid.Resource.Attribute.buttonBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.buttonGravity = global::FreshAir.Droid.Resource.Attribute.buttonGravity;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.buttonPanelSideLayout = global::FreshAir.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.buttonStyle = global::FreshAir.Droid.Resource.Attribute.buttonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.buttonStyleSmall = global::FreshAir.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.buttonTint = global::FreshAir.Droid.Resource.Attribute.buttonTint;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.buttonTintMode = global::FreshAir.Droid.Resource.Attribute.buttonTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.cardBackgroundColor = global::FreshAir.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.cardCornerRadius = global::FreshAir.Droid.Resource.Attribute.cardCornerRadius;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.cardElevation = global::FreshAir.Droid.Resource.Attribute.cardElevation;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.cardMaxElevation = global::FreshAir.Droid.Resource.Attribute.cardMaxElevation;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.cardPreventCornerOverlap = global::FreshAir.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.cardUseCompatPadding = global::FreshAir.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.checkboxStyle = global::FreshAir.Droid.Resource.Attribute.checkboxStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.checkedTextViewStyle = global::FreshAir.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.closeIcon = global::FreshAir.Droid.Resource.Attribute.closeIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.closeItemLayout = global::FreshAir.Droid.Resource.Attribute.closeItemLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.collapseContentDescription = global::FreshAir.Droid.Resource.Attribute.collapseContentDescription;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.collapseIcon = global::FreshAir.Droid.Resource.Attribute.collapseIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.collapsedTitleGravity = global::FreshAir.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.collapsedTitleTextAppearance = global::FreshAir.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.color = global::FreshAir.Droid.Resource.Attribute.color;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.colorAccent = global::FreshAir.Droid.Resource.Attribute.colorAccent;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.colorBackgroundFloating = global::FreshAir.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.colorButtonNormal = global::FreshAir.Droid.Resource.Attribute.colorButtonNormal;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.colorControlActivated = global::FreshAir.Droid.Resource.Attribute.colorControlActivated;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.colorControlHighlight = global::FreshAir.Droid.Resource.Attribute.colorControlHighlight;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.colorControlNormal = global::FreshAir.Droid.Resource.Attribute.colorControlNormal;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.colorPrimary = global::FreshAir.Droid.Resource.Attribute.colorPrimary;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.colorPrimaryDark = global::FreshAir.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.colorSwitchThumbNormal = global::FreshAir.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.commitIcon = global::FreshAir.Droid.Resource.Attribute.commitIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentInsetEnd = global::FreshAir.Droid.Resource.Attribute.contentInsetEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentInsetEndWithActions = global::FreshAir.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentInsetLeft = global::FreshAir.Droid.Resource.Attribute.contentInsetLeft;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentInsetRight = global::FreshAir.Droid.Resource.Attribute.contentInsetRight;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentInsetStart = global::FreshAir.Droid.Resource.Attribute.contentInsetStart;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentInsetStartWithNavigation = global::FreshAir.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentPadding = global::FreshAir.Droid.Resource.Attribute.contentPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentPaddingBottom = global::FreshAir.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentPaddingLeft = global::FreshAir.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentPaddingRight = global::FreshAir.Droid.Resource.Attribute.contentPaddingRight;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentPaddingTop = global::FreshAir.Droid.Resource.Attribute.contentPaddingTop;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.contentScrim = global::FreshAir.Droid.Resource.Attribute.contentScrim;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.controlBackground = global::FreshAir.Droid.Resource.Attribute.controlBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.counterEnabled = global::FreshAir.Droid.Resource.Attribute.counterEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.counterMaxLength = global::FreshAir.Droid.Resource.Attribute.counterMaxLength;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.counterOverflowTextAppearance = global::FreshAir.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.counterTextAppearance = global::FreshAir.Droid.Resource.Attribute.counterTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.customNavigationLayout = global::FreshAir.Droid.Resource.Attribute.customNavigationLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.defaultQueryHint = global::FreshAir.Droid.Resource.Attribute.defaultQueryHint;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.dialogPreferredPadding = global::FreshAir.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.dialogTheme = global::FreshAir.Droid.Resource.Attribute.dialogTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.displayOptions = global::FreshAir.Droid.Resource.Attribute.displayOptions;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.divider = global::FreshAir.Droid.Resource.Attribute.divider;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.dividerHorizontal = global::FreshAir.Droid.Resource.Attribute.dividerHorizontal;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.dividerPadding = global::FreshAir.Droid.Resource.Attribute.dividerPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.dividerVertical = global::FreshAir.Droid.Resource.Attribute.dividerVertical;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.drawableSize = global::FreshAir.Droid.Resource.Attribute.drawableSize;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.drawerArrowStyle = global::FreshAir.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.dropDownListViewStyle = global::FreshAir.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.dropdownListPreferredItemHeight = global::FreshAir.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.editTextBackground = global::FreshAir.Droid.Resource.Attribute.editTextBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.editTextColor = global::FreshAir.Droid.Resource.Attribute.editTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.editTextStyle = global::FreshAir.Droid.Resource.Attribute.editTextStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.elevation = global::FreshAir.Droid.Resource.Attribute.elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.errorEnabled = global::FreshAir.Droid.Resource.Attribute.errorEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.errorTextAppearance = global::FreshAir.Droid.Resource.Attribute.errorTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FreshAir.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.expanded = global::FreshAir.Droid.Resource.Attribute.expanded;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.expandedTitleGravity = global::FreshAir.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.expandedTitleMargin = global::FreshAir.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.expandedTitleMarginBottom = global::FreshAir.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.expandedTitleMarginEnd = global::FreshAir.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.expandedTitleMarginStart = global::FreshAir.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.expandedTitleMarginTop = global::FreshAir.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.expandedTitleTextAppearance = global::FreshAir.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.externalRouteEnabledDrawable = global::FreshAir.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.fabSize = global::FreshAir.Droid.Resource.Attribute.fabSize;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.foregroundInsidePadding = global::FreshAir.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.gapBetweenBars = global::FreshAir.Droid.Resource.Attribute.gapBetweenBars;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.goIcon = global::FreshAir.Droid.Resource.Attribute.goIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.headerLayout = global::FreshAir.Droid.Resource.Attribute.headerLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.height = global::FreshAir.Droid.Resource.Attribute.height;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.hideOnContentScroll = global::FreshAir.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.hintAnimationEnabled = global::FreshAir.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.hintEnabled = global::FreshAir.Droid.Resource.Attribute.hintEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.hintTextAppearance = global::FreshAir.Droid.Resource.Attribute.hintTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.homeAsUpIndicator = global::FreshAir.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.homeLayout = global::FreshAir.Droid.Resource.Attribute.homeLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.icon = global::FreshAir.Droid.Resource.Attribute.icon;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.iconifiedByDefault = global::FreshAir.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.imageButtonStyle = global::FreshAir.Droid.Resource.Attribute.imageButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.indeterminateProgressStyle = global::FreshAir.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.initialActivityCount = global::FreshAir.Droid.Resource.Attribute.initialActivityCount;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.insetForeground = global::FreshAir.Droid.Resource.Attribute.insetForeground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.isLightTheme = global::FreshAir.Droid.Resource.Attribute.isLightTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.itemBackground = global::FreshAir.Droid.Resource.Attribute.itemBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.itemIconTint = global::FreshAir.Droid.Resource.Attribute.itemIconTint;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.itemPadding = global::FreshAir.Droid.Resource.Attribute.itemPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.itemTextAppearance = global::FreshAir.Droid.Resource.Attribute.itemTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.itemTextColor = global::FreshAir.Droid.Resource.Attribute.itemTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.keylines = global::FreshAir.Droid.Resource.Attribute.keylines;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layout = global::FreshAir.Droid.Resource.Attribute.layout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layoutManager = global::FreshAir.Droid.Resource.Attribute.layoutManager;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layout_anchor = global::FreshAir.Droid.Resource.Attribute.layout_anchor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layout_anchorGravity = global::FreshAir.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layout_behavior = global::FreshAir.Droid.Resource.Attribute.layout_behavior;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layout_collapseMode = global::FreshAir.Droid.Resource.Attribute.layout_collapseMode;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layout_collapseParallaxMultiplier = global::FreshAir.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layout_dodgeInsetEdges = global::FreshAir.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layout_insetEdge = global::FreshAir.Droid.Resource.Attribute.layout_insetEdge;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layout_keyline = global::FreshAir.Droid.Resource.Attribute.layout_keyline;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layout_scrollFlags = global::FreshAir.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.layout_scrollInterpolator = global::FreshAir.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.lineColor = global::FreshAir.Droid.Resource.Attribute.lineColor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.lineHeightSelected = global::FreshAir.Droid.Resource.Attribute.lineHeightSelected;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.lineHeightUnselected = global::FreshAir.Droid.Resource.Attribute.lineHeightUnselected;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.listChoiceBackgroundIndicator = global::FreshAir.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.listDividerAlertDialog = global::FreshAir.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.listItemLayout = global::FreshAir.Droid.Resource.Attribute.listItemLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.listLayout = global::FreshAir.Droid.Resource.Attribute.listLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.listMenuViewStyle = global::FreshAir.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.listPopupWindowStyle = global::FreshAir.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.listPreferredItemHeight = global::FreshAir.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.listPreferredItemHeightLarge = global::FreshAir.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.listPreferredItemHeightSmall = global::FreshAir.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.listPreferredItemPaddingLeft = global::FreshAir.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.listPreferredItemPaddingRight = global::FreshAir.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.logo = global::FreshAir.Droid.Resource.Attribute.logo;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.logoDescription = global::FreshAir.Droid.Resource.Attribute.logoDescription;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.maxActionInlineWidth = global::FreshAir.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.maxButtonHeight = global::FreshAir.Droid.Resource.Attribute.maxButtonHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.measureWithLargestChild = global::FreshAir.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRouteAudioTrackDrawable = global::FreshAir.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRouteButtonStyle = global::FreshAir.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRouteCloseDrawable = global::FreshAir.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::FreshAir.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRouteDefaultIconDrawable = global::FreshAir.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRoutePauseDrawable = global::FreshAir.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRoutePlayDrawable = global::FreshAir.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::FreshAir.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::FreshAir.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRouteStopDrawable = global::FreshAir.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRouteTheme = global::FreshAir.Droid.Resource.Attribute.mediaRouteTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.mediaRouteTvIconDrawable = global::FreshAir.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.menu = global::FreshAir.Droid.Resource.Attribute.menu;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.multiChoiceItemLayout = global::FreshAir.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.navigationContentDescription = global::FreshAir.Droid.Resource.Attribute.navigationContentDescription;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.navigationIcon = global::FreshAir.Droid.Resource.Attribute.navigationIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.navigationMode = global::FreshAir.Droid.Resource.Attribute.navigationMode;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.overlapAnchor = global::FreshAir.Droid.Resource.Attribute.overlapAnchor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.paddingBottomNoButtons = global::FreshAir.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.paddingEnd = global::FreshAir.Droid.Resource.Attribute.paddingEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.paddingStart = global::FreshAir.Droid.Resource.Attribute.paddingStart;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.paddingTopNoTitle = global::FreshAir.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.panelBackground = global::FreshAir.Droid.Resource.Attribute.panelBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.panelMenuListTheme = global::FreshAir.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.panelMenuListWidth = global::FreshAir.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.passwordToggleContentDescription = global::FreshAir.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.passwordToggleDrawable = global::FreshAir.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.passwordToggleEnabled = global::FreshAir.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.passwordToggleTint = global::FreshAir.Droid.Resource.Attribute.passwordToggleTint;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.passwordToggleTintMode = global::FreshAir.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.popupMenuStyle = global::FreshAir.Droid.Resource.Attribute.popupMenuStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.popupTheme = global::FreshAir.Droid.Resource.Attribute.popupTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.popupWindowStyle = global::FreshAir.Droid.Resource.Attribute.popupWindowStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.preserveIconSpacing = global::FreshAir.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.pressedTranslationZ = global::FreshAir.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.progressBarPadding = global::FreshAir.Droid.Resource.Attribute.progressBarPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.progressBarStyle = global::FreshAir.Droid.Resource.Attribute.progressBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.queryBackground = global::FreshAir.Droid.Resource.Attribute.queryBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.queryHint = global::FreshAir.Droid.Resource.Attribute.queryHint;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.radioButtonStyle = global::FreshAir.Droid.Resource.Attribute.radioButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.ratingBarStyle = global::FreshAir.Droid.Resource.Attribute.ratingBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.ratingBarStyleIndicator = global::FreshAir.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.ratingBarStyleSmall = global::FreshAir.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.reverseLayout = global::FreshAir.Droid.Resource.Attribute.reverseLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.rippleColor = global::FreshAir.Droid.Resource.Attribute.rippleColor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.scrimAnimationDuration = global::FreshAir.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.scrimVisibleHeightTrigger = global::FreshAir.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.searchHintIcon = global::FreshAir.Droid.Resource.Attribute.searchHintIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.searchIcon = global::FreshAir.Droid.Resource.Attribute.searchIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.searchViewStyle = global::FreshAir.Droid.Resource.Attribute.searchViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.seekBarStyle = global::FreshAir.Droid.Resource.Attribute.seekBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.segmentedControlOptionStyle = global::FreshAir.Droid.Resource.Attribute.segmentedControlOptionStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.selectableItemBackground = global::FreshAir.Droid.Resource.Attribute.selectableItemBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.selectableItemBackgroundBorderless = global::FreshAir.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.showAsAction = global::FreshAir.Droid.Resource.Attribute.showAsAction;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.showDividers = global::FreshAir.Droid.Resource.Attribute.showDividers;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.showText = global::FreshAir.Droid.Resource.Attribute.showText;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.showTitle = global::FreshAir.Droid.Resource.Attribute.showTitle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.singleChoiceItemLayout = global::FreshAir.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.spanCount = global::FreshAir.Droid.Resource.Attribute.spanCount;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.spinBars = global::FreshAir.Droid.Resource.Attribute.spinBars;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.spinnerDropDownItemStyle = global::FreshAir.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.spinnerStyle = global::FreshAir.Droid.Resource.Attribute.spinnerStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.splitTrack = global::FreshAir.Droid.Resource.Attribute.splitTrack;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.srcCompat = global::FreshAir.Droid.Resource.Attribute.srcCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.stackFromEnd = global::FreshAir.Droid.Resource.Attribute.stackFromEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.state_above_anchor = global::FreshAir.Droid.Resource.Attribute.state_above_anchor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.state_collapsed = global::FreshAir.Droid.Resource.Attribute.state_collapsed;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.state_collapsible = global::FreshAir.Droid.Resource.Attribute.state_collapsible;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.statusBarBackground = global::FreshAir.Droid.Resource.Attribute.statusBarBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.statusBarScrim = global::FreshAir.Droid.Resource.Attribute.statusBarScrim;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.subMenuArrow = global::FreshAir.Droid.Resource.Attribute.subMenuArrow;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.submitBackground = global::FreshAir.Droid.Resource.Attribute.submitBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.subtitle = global::FreshAir.Droid.Resource.Attribute.subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.subtitleTextAppearance = global::FreshAir.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.subtitleTextColor = global::FreshAir.Droid.Resource.Attribute.subtitleTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.subtitleTextStyle = global::FreshAir.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.suggestionRowLayout = global::FreshAir.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.switchMinWidth = global::FreshAir.Droid.Resource.Attribute.switchMinWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.switchPadding = global::FreshAir.Droid.Resource.Attribute.switchPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.switchStyle = global::FreshAir.Droid.Resource.Attribute.switchStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.switchTextAppearance = global::FreshAir.Droid.Resource.Attribute.switchTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabBackground = global::FreshAir.Droid.Resource.Attribute.tabBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabContentStart = global::FreshAir.Droid.Resource.Attribute.tabContentStart;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabGravity = global::FreshAir.Droid.Resource.Attribute.tabGravity;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabIndicatorColor = global::FreshAir.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabIndicatorHeight = global::FreshAir.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabMaxWidth = global::FreshAir.Droid.Resource.Attribute.tabMaxWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabMinWidth = global::FreshAir.Droid.Resource.Attribute.tabMinWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabMode = global::FreshAir.Droid.Resource.Attribute.tabMode;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabPadding = global::FreshAir.Droid.Resource.Attribute.tabPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabPaddingBottom = global::FreshAir.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabPaddingEnd = global::FreshAir.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabPaddingStart = global::FreshAir.Droid.Resource.Attribute.tabPaddingStart;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabPaddingTop = global::FreshAir.Droid.Resource.Attribute.tabPaddingTop;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabSelectedTextColor = global::FreshAir.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabTextAppearance = global::FreshAir.Droid.Resource.Attribute.tabTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tabTextColor = global::FreshAir.Droid.Resource.Attribute.tabTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textAllCaps = global::FreshAir.Droid.Resource.Attribute.textAllCaps;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textAppearanceLargePopupMenu = global::FreshAir.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textAppearanceListItem = global::FreshAir.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textAppearanceListItemSecondary = global::FreshAir.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textAppearanceListItemSmall = global::FreshAir.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textAppearancePopupMenuHeader = global::FreshAir.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textAppearanceSearchResultSubtitle = global::FreshAir.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textAppearanceSearchResultTitle = global::FreshAir.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textAppearanceSmallPopupMenu = global::FreshAir.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textColorAlertDialogListItem = global::FreshAir.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textColorError = global::FreshAir.Droid.Resource.Attribute.textColorError;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.textColorSearchUrl = global::FreshAir.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.theme = global::FreshAir.Droid.Resource.Attribute.theme;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.thickness = global::FreshAir.Droid.Resource.Attribute.thickness;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.thumbTextPadding = global::FreshAir.Droid.Resource.Attribute.thumbTextPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.thumbTint = global::FreshAir.Droid.Resource.Attribute.thumbTint;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.thumbTintMode = global::FreshAir.Droid.Resource.Attribute.thumbTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tickMark = global::FreshAir.Droid.Resource.Attribute.tickMark;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tickMarkTint = global::FreshAir.Droid.Resource.Attribute.tickMarkTint;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tickMarkTintMode = global::FreshAir.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tint = global::FreshAir.Droid.Resource.Attribute.tint;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.tintMode = global::FreshAir.Droid.Resource.Attribute.tintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.title = global::FreshAir.Droid.Resource.Attribute.title;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.titleEnabled = global::FreshAir.Droid.Resource.Attribute.titleEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.titleMargin = global::FreshAir.Droid.Resource.Attribute.titleMargin;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.titleMarginBottom = global::FreshAir.Droid.Resource.Attribute.titleMarginBottom;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.titleMarginEnd = global::FreshAir.Droid.Resource.Attribute.titleMarginEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.titleMarginStart = global::FreshAir.Droid.Resource.Attribute.titleMarginStart;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.titleMarginTop = global::FreshAir.Droid.Resource.Attribute.titleMarginTop;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.titleMargins = global::FreshAir.Droid.Resource.Attribute.titleMargins;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.titleTextAppearance = global::FreshAir.Droid.Resource.Attribute.titleTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.titleTextColor = global::FreshAir.Droid.Resource.Attribute.titleTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.titleTextStyle = global::FreshAir.Droid.Resource.Attribute.titleTextStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.toolbarId = global::FreshAir.Droid.Resource.Attribute.toolbarId;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.toolbarNavigationButtonStyle = global::FreshAir.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.toolbarStyle = global::FreshAir.Droid.Resource.Attribute.toolbarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.track = global::FreshAir.Droid.Resource.Attribute.track;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.trackTint = global::FreshAir.Droid.Resource.Attribute.trackTint;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.trackTintMode = global::FreshAir.Droid.Resource.Attribute.trackTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.useCompatPadding = global::FreshAir.Droid.Resource.Attribute.useCompatPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.voiceIcon = global::FreshAir.Droid.Resource.Attribute.voiceIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.windowActionBar = global::FreshAir.Droid.Resource.Attribute.windowActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.windowActionBarOverlay = global::FreshAir.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.windowActionModeOverlay = global::FreshAir.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.windowFixedHeightMajor = global::FreshAir.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.windowFixedHeightMinor = global::FreshAir.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.windowFixedWidthMajor = global::FreshAir.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.windowFixedWidthMinor = global::FreshAir.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.windowMinWidthMajor = global::FreshAir.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.windowMinWidthMinor = global::FreshAir.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Messier16.Forms.Android.Controls.Resource.Attribute.windowNoTitle = global::FreshAir.Droid.Resource.Attribute.windowNoTitle;
+			global::Messier16.Forms.Android.Controls.Resource.Boolean.abc_action_bar_embed_tabs = global::FreshAir.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Messier16.Forms.Android.Controls.Resource.Boolean.abc_allow_stacked_button_bar = global::FreshAir.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Messier16.Forms.Android.Controls.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FreshAir.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Messier16.Forms.Android.Controls.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::FreshAir.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Messier16.Forms.Android.Controls.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::FreshAir.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_background_cache_hint_selector_material_dark = global::FreshAir.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_background_cache_hint_selector_material_light = global::FreshAir.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_btn_colored_borderless_text_material = global::FreshAir.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_btn_colored_text_material = global::FreshAir.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_color_highlight_material = global::FreshAir.Droid.Resource.Color.abc_color_highlight_material;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_hint_foreground_material_dark = global::FreshAir.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_hint_foreground_material_light = global::FreshAir.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_input_method_navigation_guard = global::FreshAir.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_primary_text_disable_only_material_dark = global::FreshAir.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_primary_text_disable_only_material_light = global::FreshAir.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_primary_text_material_dark = global::FreshAir.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_primary_text_material_light = global::FreshAir.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_search_url_text = global::FreshAir.Droid.Resource.Color.abc_search_url_text;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_search_url_text_normal = global::FreshAir.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_search_url_text_pressed = global::FreshAir.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_search_url_text_selected = global::FreshAir.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_secondary_text_material_dark = global::FreshAir.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_secondary_text_material_light = global::FreshAir.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_tint_btn_checkable = global::FreshAir.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_tint_default = global::FreshAir.Droid.Resource.Color.abc_tint_default;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_tint_edittext = global::FreshAir.Droid.Resource.Color.abc_tint_edittext;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_tint_seek_thumb = global::FreshAir.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_tint_spinner = global::FreshAir.Droid.Resource.Color.abc_tint_spinner;
+			global::Messier16.Forms.Android.Controls.Resource.Color.abc_tint_switch_track = global::FreshAir.Droid.Resource.Color.abc_tint_switch_track;
+			global::Messier16.Forms.Android.Controls.Resource.Color.accent_material_dark = global::FreshAir.Droid.Resource.Color.accent_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.accent_material_light = global::FreshAir.Droid.Resource.Color.accent_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.background_floating_material_dark = global::FreshAir.Droid.Resource.Color.background_floating_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.background_floating_material_light = global::FreshAir.Droid.Resource.Color.background_floating_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.background_material_dark = global::FreshAir.Droid.Resource.Color.background_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.background_material_light = global::FreshAir.Droid.Resource.Color.background_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.bright_foreground_disabled_material_dark = global::FreshAir.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.bright_foreground_disabled_material_light = global::FreshAir.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.bright_foreground_inverse_material_dark = global::FreshAir.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.bright_foreground_inverse_material_light = global::FreshAir.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.bright_foreground_material_dark = global::FreshAir.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.bright_foreground_material_light = global::FreshAir.Droid.Resource.Color.bright_foreground_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.button_material_dark = global::FreshAir.Droid.Resource.Color.button_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.button_material_light = global::FreshAir.Droid.Resource.Color.button_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.cardview_dark_background = global::FreshAir.Droid.Resource.Color.cardview_dark_background;
+			global::Messier16.Forms.Android.Controls.Resource.Color.cardview_light_background = global::FreshAir.Droid.Resource.Color.cardview_light_background;
+			global::Messier16.Forms.Android.Controls.Resource.Color.cardview_shadow_end_color = global::FreshAir.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.cardview_shadow_start_color = global::FreshAir.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.design_bottom_navigation_shadow_color = global::FreshAir.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.design_error = global::FreshAir.Droid.Resource.Color.design_error;
+			global::Messier16.Forms.Android.Controls.Resource.Color.design_fab_shadow_end_color = global::FreshAir.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.design_fab_shadow_mid_color = global::FreshAir.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.design_fab_shadow_start_color = global::FreshAir.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.design_fab_stroke_end_inner_color = global::FreshAir.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.design_fab_stroke_end_outer_color = global::FreshAir.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.design_fab_stroke_top_inner_color = global::FreshAir.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.design_fab_stroke_top_outer_color = global::FreshAir.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.design_snackbar_background_color = global::FreshAir.Droid.Resource.Color.design_snackbar_background_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.design_tint_password_toggle = global::FreshAir.Droid.Resource.Color.design_tint_password_toggle;
+			global::Messier16.Forms.Android.Controls.Resource.Color.dim_foreground_disabled_material_dark = global::FreshAir.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.dim_foreground_disabled_material_light = global::FreshAir.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.dim_foreground_material_dark = global::FreshAir.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.dim_foreground_material_light = global::FreshAir.Droid.Resource.Color.dim_foreground_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.foreground_material_dark = global::FreshAir.Droid.Resource.Color.foreground_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.foreground_material_light = global::FreshAir.Droid.Resource.Color.foreground_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.highlight = global::FreshAir.Droid.Resource.Color.highlight;
+			global::Messier16.Forms.Android.Controls.Resource.Color.highlighted_text_material_dark = global::FreshAir.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.highlighted_text_material_light = global::FreshAir.Droid.Resource.Color.highlighted_text_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.light = global::FreshAir.Droid.Resource.Color.light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_blue_grey_800 = global::FreshAir.Droid.Resource.Color.material_blue_grey_800;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_blue_grey_900 = global::FreshAir.Droid.Resource.Color.material_blue_grey_900;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_blue_grey_950 = global::FreshAir.Droid.Resource.Color.material_blue_grey_950;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_deep_teal_200 = global::FreshAir.Droid.Resource.Color.material_deep_teal_200;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_deep_teal_500 = global::FreshAir.Droid.Resource.Color.material_deep_teal_500;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_grey_100 = global::FreshAir.Droid.Resource.Color.material_grey_100;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_grey_300 = global::FreshAir.Droid.Resource.Color.material_grey_300;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_grey_50 = global::FreshAir.Droid.Resource.Color.material_grey_50;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_grey_600 = global::FreshAir.Droid.Resource.Color.material_grey_600;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_grey_800 = global::FreshAir.Droid.Resource.Color.material_grey_800;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_grey_850 = global::FreshAir.Droid.Resource.Color.material_grey_850;
+			global::Messier16.Forms.Android.Controls.Resource.Color.material_grey_900 = global::FreshAir.Droid.Resource.Color.material_grey_900;
+			global::Messier16.Forms.Android.Controls.Resource.Color.normal = global::FreshAir.Droid.Resource.Color.normal;
+			global::Messier16.Forms.Android.Controls.Resource.Color.notification_action_color_filter = global::FreshAir.Droid.Resource.Color.notification_action_color_filter;
+			global::Messier16.Forms.Android.Controls.Resource.Color.notification_icon_bg_color = global::FreshAir.Droid.Resource.Color.notification_icon_bg_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.notification_material_background_media_default_color = global::FreshAir.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Messier16.Forms.Android.Controls.Resource.Color.primary_dark_material_dark = global::FreshAir.Droid.Resource.Color.primary_dark_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.primary_dark_material_light = global::FreshAir.Droid.Resource.Color.primary_dark_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.primary_material_dark = global::FreshAir.Droid.Resource.Color.primary_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.primary_material_light = global::FreshAir.Droid.Resource.Color.primary_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.primary_text_default_material_dark = global::FreshAir.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.primary_text_default_material_light = global::FreshAir.Droid.Resource.Color.primary_text_default_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.primary_text_disabled_material_dark = global::FreshAir.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.primary_text_disabled_material_light = global::FreshAir.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.ripple_material_dark = global::FreshAir.Droid.Resource.Color.ripple_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.ripple_material_light = global::FreshAir.Droid.Resource.Color.ripple_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.secondary_text_default_material_dark = global::FreshAir.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.secondary_text_default_material_light = global::FreshAir.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.secondary_text_disabled_material_dark = global::FreshAir.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.secondary_text_disabled_material_light = global::FreshAir.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.segmented_control_text = global::FreshAir.Droid.Resource.Color.segmented_control_text;
+			global::Messier16.Forms.Android.Controls.Resource.Color.selected = global::FreshAir.Droid.Resource.Color.selected;
+			global::Messier16.Forms.Android.Controls.Resource.Color.switch_thumb_disabled_material_dark = global::FreshAir.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.switch_thumb_disabled_material_light = global::FreshAir.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.switch_thumb_material_dark = global::FreshAir.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.switch_thumb_material_light = global::FreshAir.Droid.Resource.Color.switch_thumb_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Color.switch_thumb_normal_material_dark = global::FreshAir.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Color.switch_thumb_normal_material_light = global::FreshAir.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_content_inset_material = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_default_height_material = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_default_padding_end_material = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_default_padding_start_material = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_elevation_material = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_progress_bar_size = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_stacked_max_height = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::FreshAir.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_button_min_height_material = global::FreshAir.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_button_min_width_material = global::FreshAir.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_action_button_min_width_overflow_material = global::FreshAir.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_alert_dialog_button_bar_height = global::FreshAir.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_button_inset_horizontal_material = global::FreshAir.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_button_inset_vertical_material = global::FreshAir.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_button_padding_horizontal_material = global::FreshAir.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_button_padding_vertical_material = global::FreshAir.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::FreshAir.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_config_prefDialogWidth = global::FreshAir.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_control_corner_material = global::FreshAir.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_control_inset_material = global::FreshAir.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_control_padding_material = global::FreshAir.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dialog_fixed_height_major = global::FreshAir.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dialog_fixed_height_minor = global::FreshAir.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dialog_fixed_width_major = global::FreshAir.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dialog_fixed_width_minor = global::FreshAir.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::FreshAir.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::FreshAir.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dialog_min_width_major = global::FreshAir.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dialog_min_width_minor = global::FreshAir.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dialog_padding_material = global::FreshAir.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dialog_padding_top_material = global::FreshAir.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dialog_title_divider_material = global::FreshAir.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_disabled_alpha_material_dark = global::FreshAir.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_disabled_alpha_material_light = global::FreshAir.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dropdownitem_icon_width = global::FreshAir.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dropdownitem_text_padding_left = global::FreshAir.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_dropdownitem_text_padding_right = global::FreshAir.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_edit_text_inset_bottom_material = global::FreshAir.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::FreshAir.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_edit_text_inset_top_material = global::FreshAir.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_floating_window_z = global::FreshAir.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_list_item_padding_horizontal_material = global::FreshAir.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_panel_menu_list_width = global::FreshAir.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_progress_bar_height_material = global::FreshAir.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_search_view_preferred_height = global::FreshAir.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_search_view_preferred_width = global::FreshAir.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_seekbar_track_background_height_material = global::FreshAir.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_seekbar_track_progress_height_material = global::FreshAir.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_select_dialog_padding_start_material = global::FreshAir.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_switch_padding = global::FreshAir.Droid.Resource.Dimension.abc_switch_padding;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_body_1_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_body_2_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_button_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_caption_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_display_1_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_display_2_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_display_3_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_display_4_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_headline_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_large_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_medium_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_menu_header_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_menu_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_small_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_subhead_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FreshAir.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_title_material = global::FreshAir.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.abc_text_size_title_material_toolbar = global::FreshAir.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.cardview_compat_inset_shadow = global::FreshAir.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.cardview_default_elevation = global::FreshAir.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.cardview_default_radius = global::FreshAir.Droid.Resource.Dimension.cardview_default_radius;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_appbar_elevation = global::FreshAir.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FreshAir.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_bottom_navigation_active_text_size = global::FreshAir.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_bottom_navigation_elevation = global::FreshAir.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_bottom_navigation_height = global::FreshAir.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_bottom_navigation_item_max_width = global::FreshAir.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_bottom_navigation_item_min_width = global::FreshAir.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_bottom_navigation_margin = global::FreshAir.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_bottom_navigation_shadow_height = global::FreshAir.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_bottom_navigation_text_size = global::FreshAir.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FreshAir.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FreshAir.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_fab_border_width = global::FreshAir.Droid.Resource.Dimension.design_fab_border_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_fab_elevation = global::FreshAir.Droid.Resource.Dimension.design_fab_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_fab_image_size = global::FreshAir.Droid.Resource.Dimension.design_fab_image_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_fab_size_mini = global::FreshAir.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_fab_size_normal = global::FreshAir.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_fab_translation_z_pressed = global::FreshAir.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_navigation_elevation = global::FreshAir.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_navigation_icon_padding = global::FreshAir.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_navigation_icon_size = global::FreshAir.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_navigation_max_width = global::FreshAir.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_navigation_padding_bottom = global::FreshAir.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_navigation_separator_vertical_padding = global::FreshAir.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_snackbar_action_inline_max_width = global::FreshAir.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_snackbar_background_corner_radius = global::FreshAir.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_snackbar_elevation = global::FreshAir.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FreshAir.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_snackbar_max_width = global::FreshAir.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_snackbar_min_width = global::FreshAir.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_snackbar_padding_horizontal = global::FreshAir.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_snackbar_padding_vertical = global::FreshAir.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::FreshAir.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_snackbar_text_size = global::FreshAir.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_tab_max_width = global::FreshAir.Droid.Resource.Dimension.design_tab_max_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_tab_scrollable_min_width = global::FreshAir.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_tab_text_size = global::FreshAir.Droid.Resource.Dimension.design_tab_text_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.design_tab_text_size_2line = global::FreshAir.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.disabled_alpha_material_dark = global::FreshAir.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.disabled_alpha_material_light = global::FreshAir.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.highlight_alpha_material_colored = global::FreshAir.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.highlight_alpha_material_dark = global::FreshAir.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.highlight_alpha_material_light = global::FreshAir.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.hint_alpha_material_dark = global::FreshAir.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.hint_alpha_material_light = global::FreshAir.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.hint_pressed_alpha_material_dark = global::FreshAir.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.hint_pressed_alpha_material_light = global::FreshAir.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FreshAir.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FreshAir.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FreshAir.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.mr_controller_volume_group_list_item_height = global::FreshAir.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::FreshAir.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.mr_controller_volume_group_list_max_height = global::FreshAir.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::FreshAir.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.mr_dialog_fixed_width_major = global::FreshAir.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.mr_dialog_fixed_width_minor = global::FreshAir.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_action_icon_size = global::FreshAir.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_action_text_size = global::FreshAir.Droid.Resource.Dimension.notification_action_text_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_big_circle_margin = global::FreshAir.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_content_margin_start = global::FreshAir.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_large_icon_height = global::FreshAir.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_large_icon_width = global::FreshAir.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_main_column_padding_top = global::FreshAir.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_media_narrow_margin = global::FreshAir.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_right_icon_size = global::FreshAir.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_right_side_padding_top = global::FreshAir.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_small_icon_background_padding = global::FreshAir.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_small_icon_size_as_large = global::FreshAir.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_subtext_size = global::FreshAir.Droid.Resource.Dimension.notification_subtext_size;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_top_pad = global::FreshAir.Droid.Resource.Dimension.notification_top_pad;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.notification_top_pad_large_text = global::FreshAir.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.segmented_control_default_height = global::FreshAir.Droid.Resource.Dimension.segmented_control_default_height;
+			global::Messier16.Forms.Android.Controls.Resource.Dimension.segmented_control_text_size = global::FreshAir.Droid.Resource.Dimension.segmented_control_text_size;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_action_bar_item_background_material = global::FreshAir.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_btn_borderless_material = global::FreshAir.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_btn_check_material = global::FreshAir.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::FreshAir.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::FreshAir.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_btn_colored_material = global::FreshAir.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_btn_default_mtrl_shape = global::FreshAir.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_btn_radio_material = global::FreshAir.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::FreshAir.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::FreshAir.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::FreshAir.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::FreshAir.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_cab_background_internal_bg = global::FreshAir.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_cab_background_top_material = global::FreshAir.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_control_background_material = global::FreshAir.Droid.Resource.Drawable.abc_control_background_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_dialog_material_background = global::FreshAir.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_edit_text_material = global::FreshAir.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_ab_back_material = global::FreshAir.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::FreshAir.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_clear_material = global::FreshAir.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_go_search_api_material = global::FreshAir.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::FreshAir.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_menu_overflow_material = global::FreshAir.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::FreshAir.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_search_api_material = global::FreshAir.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_star_black_16dp = global::FreshAir.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_star_black_36dp = global::FreshAir.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_star_black_48dp = global::FreshAir.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_star_half_black_16dp = global::FreshAir.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_star_half_black_36dp = global::FreshAir.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_star_half_black_48dp = global::FreshAir.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ic_voice_search_api_material = global::FreshAir.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_item_background_holo_dark = global::FreshAir.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_item_background_holo_light = global::FreshAir.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_list_divider_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_list_focused_holo = global::FreshAir.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_list_longpressed_holo = global::FreshAir.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_list_pressed_holo_dark = global::FreshAir.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_list_pressed_holo_light = global::FreshAir.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::FreshAir.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::FreshAir.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::FreshAir.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_list_selector_disabled_holo_light = global::FreshAir.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_list_selector_holo_dark = global::FreshAir.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_list_selector_holo_light = global::FreshAir.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::FreshAir.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_popup_background_mtrl_mult = global::FreshAir.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ratingbar_indicator_material = global::FreshAir.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ratingbar_material = global::FreshAir.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_ratingbar_small_material = global::FreshAir.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::FreshAir.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::FreshAir.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_seekbar_thumb_material = global::FreshAir.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_seekbar_tick_mark_material = global::FreshAir.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_seekbar_track_material = global::FreshAir.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::FreshAir.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_spinner_textfield_background_material = global::FreshAir.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_switch_thumb_material = global::FreshAir.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_switch_track_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_tab_indicator_material = global::FreshAir.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_text_cursor_material = global::FreshAir.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::FreshAir.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::FreshAir.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::FreshAir.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::FreshAir.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::FreshAir.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::FreshAir.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::FreshAir.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_textfield_search_material = global::FreshAir.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.abc_vector_test = global::FreshAir.Droid.Resource.Drawable.abc_vector_test;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.avd_hide_password = global::FreshAir.Droid.Resource.Drawable.avd_hide_password;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.avd_show_password = global::FreshAir.Droid.Resource.Drawable.avd_show_password;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.design_bottom_navigation_item_background = global::FreshAir.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.design_fab_background = global::FreshAir.Droid.Resource.Drawable.design_fab_background;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.design_ic_visibility = global::FreshAir.Droid.Resource.Drawable.design_ic_visibility;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.design_ic_visibility_off = global::FreshAir.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.design_password_eye = global::FreshAir.Droid.Resource.Drawable.design_password_eye;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.design_snackbar_background = global::FreshAir.Droid.Resource.Drawable.design_snackbar_background;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_audiotrack_dark = global::FreshAir.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_audiotrack_light = global::FreshAir.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_dialog_close_dark = global::FreshAir.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_dialog_close_light = global::FreshAir.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_00 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_01 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_02 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_03 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_04 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_05 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_06 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_07 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_08 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_09 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_10 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_11 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_12 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_13 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_14 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_collapse_15 = global::FreshAir.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_00 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_00;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_01 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_01;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_02 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_02;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_03 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_03;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_04 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_04;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_05 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_05;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_06 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_06;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_07 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_07;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_08 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_08;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_09 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_09;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_10 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_10;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_11 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_11;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_12 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_12;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_13 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_13;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_14 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_14;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_group_expand_15 = global::FreshAir.Droid.Resource.Drawable.ic_group_expand_15;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_media_pause_dark = global::FreshAir.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_media_pause_light = global::FreshAir.Droid.Resource.Drawable.ic_media_pause_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_media_play_dark = global::FreshAir.Droid.Resource.Drawable.ic_media_play_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_media_play_light = global::FreshAir.Droid.Resource.Drawable.ic_media_play_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_media_stop_dark = global::FreshAir.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_media_stop_light = global::FreshAir.Droid.Resource.Drawable.ic_media_stop_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_00_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_00_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_01_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_01_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_02_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_02_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_03_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_03_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_04_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_04_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_05_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_05_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_06_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_06_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_07_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_07_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_08_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_08_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_09_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_09_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_10_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_10_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_11_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_11_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_12_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_12_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_13_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_13_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_14_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_14_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_15_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_15_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_16_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_16_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_17_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_17_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_18_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_18_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_19_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_19_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_20_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_20_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_21_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_21_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_22_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connected_22_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_00_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_00_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_01_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_01_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_02_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_02_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_03_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_03_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_04_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_04_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_05_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_05_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_06_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_06_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_07_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_07_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_08_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_08_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_09_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_09_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_10_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_10_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_11_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_11_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_12_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_12_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_13_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_13_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_14_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_14_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_15_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_15_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_16_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_16_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_17_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_17_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_18_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_18_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_19_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_19_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_20_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_20_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_21_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_21_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_22_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_connecting_22_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_disabled_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_disabled_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_disconnected_dark = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_disconnected_light = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_mr_button_grey = global::FreshAir.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_vol_type_speaker_dark = global::FreshAir.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_vol_type_speaker_group_dark = global::FreshAir.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_vol_type_speaker_group_light = global::FreshAir.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_vol_type_speaker_light = global::FreshAir.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_vol_type_tv_dark = global::FreshAir.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.ic_vol_type_tv_light = global::FreshAir.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_button_connected_dark = global::FreshAir.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_button_connected_light = global::FreshAir.Droid.Resource.Drawable.mr_button_connected_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_button_connecting_dark = global::FreshAir.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_button_connecting_light = global::FreshAir.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_button_dark = global::FreshAir.Droid.Resource.Drawable.mr_button_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_button_light = global::FreshAir.Droid.Resource.Drawable.mr_button_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_dialog_close_dark = global::FreshAir.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_dialog_close_light = global::FreshAir.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_dialog_material_background_dark = global::FreshAir.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_dialog_material_background_light = global::FreshAir.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_group_collapse = global::FreshAir.Droid.Resource.Drawable.mr_group_collapse;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_group_expand = global::FreshAir.Droid.Resource.Drawable.mr_group_expand;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_media_pause_dark = global::FreshAir.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_media_pause_light = global::FreshAir.Droid.Resource.Drawable.mr_media_pause_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_media_play_dark = global::FreshAir.Droid.Resource.Drawable.mr_media_play_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_media_play_light = global::FreshAir.Droid.Resource.Drawable.mr_media_play_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_media_stop_dark = global::FreshAir.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_media_stop_light = global::FreshAir.Droid.Resource.Drawable.mr_media_stop_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_vol_type_audiotrack_dark = global::FreshAir.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.mr_vol_type_audiotrack_light = global::FreshAir.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.navigation_empty_icon = global::FreshAir.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notification_action_background = global::FreshAir.Droid.Resource.Drawable.notification_action_background;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notification_bg = global::FreshAir.Droid.Resource.Drawable.notification_bg;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notification_bg_low = global::FreshAir.Droid.Resource.Drawable.notification_bg_low;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notification_bg_low_normal = global::FreshAir.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notification_bg_low_pressed = global::FreshAir.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notification_bg_normal = global::FreshAir.Droid.Resource.Drawable.notification_bg_normal;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notification_bg_normal_pressed = global::FreshAir.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notification_icon_background = global::FreshAir.Droid.Resource.Drawable.notification_icon_background;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notification_template_icon_bg = global::FreshAir.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notification_template_icon_low_bg = global::FreshAir.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notification_tile_bg = global::FreshAir.Droid.Resource.Drawable.notification_tile_bg;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.notify_panel_notification_icon_bg = global::FreshAir.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.segmented_control_background = global::FreshAir.Droid.Resource.Drawable.segmented_control_background;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.segmented_control_first_background = global::FreshAir.Droid.Resource.Drawable.segmented_control_first_background;
+			global::Messier16.Forms.Android.Controls.Resource.Drawable.segmented_control_last_background = global::FreshAir.Droid.Resource.Drawable.segmented_control_last_background;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action0 = global::FreshAir.Droid.Resource.Id.action0;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_bar = global::FreshAir.Droid.Resource.Id.action_bar;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_bar_activity_content = global::FreshAir.Droid.Resource.Id.action_bar_activity_content;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_bar_container = global::FreshAir.Droid.Resource.Id.action_bar_container;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_bar_root = global::FreshAir.Droid.Resource.Id.action_bar_root;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_bar_spinner = global::FreshAir.Droid.Resource.Id.action_bar_spinner;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_bar_subtitle = global::FreshAir.Droid.Resource.Id.action_bar_subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_bar_title = global::FreshAir.Droid.Resource.Id.action_bar_title;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_container = global::FreshAir.Droid.Resource.Id.action_container;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_context_bar = global::FreshAir.Droid.Resource.Id.action_context_bar;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_divider = global::FreshAir.Droid.Resource.Id.action_divider;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_image = global::FreshAir.Droid.Resource.Id.action_image;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_menu_divider = global::FreshAir.Droid.Resource.Id.action_menu_divider;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_menu_presenter = global::FreshAir.Droid.Resource.Id.action_menu_presenter;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_mode_bar = global::FreshAir.Droid.Resource.Id.action_mode_bar;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_mode_bar_stub = global::FreshAir.Droid.Resource.Id.action_mode_bar_stub;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_mode_close_button = global::FreshAir.Droid.Resource.Id.action_mode_close_button;
+			global::Messier16.Forms.Android.Controls.Resource.Id.action_text = global::FreshAir.Droid.Resource.Id.action_text;
+			global::Messier16.Forms.Android.Controls.Resource.Id.actions = global::FreshAir.Droid.Resource.Id.actions;
+			global::Messier16.Forms.Android.Controls.Resource.Id.activity_chooser_view_content = global::FreshAir.Droid.Resource.Id.activity_chooser_view_content;
+			global::Messier16.Forms.Android.Controls.Resource.Id.add = global::FreshAir.Droid.Resource.Id.add;
+			global::Messier16.Forms.Android.Controls.Resource.Id.alertTitle = global::FreshAir.Droid.Resource.Id.alertTitle;
+			global::Messier16.Forms.Android.Controls.Resource.Id.all = global::FreshAir.Droid.Resource.Id.all;
+			global::Messier16.Forms.Android.Controls.Resource.Id.always = global::FreshAir.Droid.Resource.Id.always;
+			global::Messier16.Forms.Android.Controls.Resource.Id.auto = global::FreshAir.Droid.Resource.Id.auto;
+			global::Messier16.Forms.Android.Controls.Resource.Id.beginning = global::FreshAir.Droid.Resource.Id.beginning;
+			global::Messier16.Forms.Android.Controls.Resource.Id.bottom = global::FreshAir.Droid.Resource.Id.bottom;
+			global::Messier16.Forms.Android.Controls.Resource.Id.buttonPanel = global::FreshAir.Droid.Resource.Id.buttonPanel;
+			global::Messier16.Forms.Android.Controls.Resource.Id.cancel_action = global::FreshAir.Droid.Resource.Id.cancel_action;
+			global::Messier16.Forms.Android.Controls.Resource.Id.center = global::FreshAir.Droid.Resource.Id.center;
+			global::Messier16.Forms.Android.Controls.Resource.Id.center_horizontal = global::FreshAir.Droid.Resource.Id.center_horizontal;
+			global::Messier16.Forms.Android.Controls.Resource.Id.center_vertical = global::FreshAir.Droid.Resource.Id.center_vertical;
+			global::Messier16.Forms.Android.Controls.Resource.Id.checkbox = global::FreshAir.Droid.Resource.Id.checkbox;
+			global::Messier16.Forms.Android.Controls.Resource.Id.chronometer = global::FreshAir.Droid.Resource.Id.chronometer;
+			global::Messier16.Forms.Android.Controls.Resource.Id.clip_horizontal = global::FreshAir.Droid.Resource.Id.clip_horizontal;
+			global::Messier16.Forms.Android.Controls.Resource.Id.clip_vertical = global::FreshAir.Droid.Resource.Id.clip_vertical;
+			global::Messier16.Forms.Android.Controls.Resource.Id.collapseActionView = global::FreshAir.Droid.Resource.Id.collapseActionView;
+			global::Messier16.Forms.Android.Controls.Resource.Id.container = global::FreshAir.Droid.Resource.Id.container;
+			global::Messier16.Forms.Android.Controls.Resource.Id.contentPanel = global::FreshAir.Droid.Resource.Id.contentPanel;
+			global::Messier16.Forms.Android.Controls.Resource.Id.coordinator = global::FreshAir.Droid.Resource.Id.coordinator;
+			global::Messier16.Forms.Android.Controls.Resource.Id.custom = global::FreshAir.Droid.Resource.Id.custom;
+			global::Messier16.Forms.Android.Controls.Resource.Id.customPanel = global::FreshAir.Droid.Resource.Id.customPanel;
+			global::Messier16.Forms.Android.Controls.Resource.Id.decor_content_parent = global::FreshAir.Droid.Resource.Id.decor_content_parent;
+			global::Messier16.Forms.Android.Controls.Resource.Id.default_activity_button = global::FreshAir.Droid.Resource.Id.default_activity_button;
+			global::Messier16.Forms.Android.Controls.Resource.Id.design_bottom_sheet = global::FreshAir.Droid.Resource.Id.design_bottom_sheet;
+			global::Messier16.Forms.Android.Controls.Resource.Id.design_menu_item_action_area = global::FreshAir.Droid.Resource.Id.design_menu_item_action_area;
+			global::Messier16.Forms.Android.Controls.Resource.Id.design_menu_item_action_area_stub = global::FreshAir.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Messier16.Forms.Android.Controls.Resource.Id.design_menu_item_text = global::FreshAir.Droid.Resource.Id.design_menu_item_text;
+			global::Messier16.Forms.Android.Controls.Resource.Id.design_navigation_view = global::FreshAir.Droid.Resource.Id.design_navigation_view;
+			global::Messier16.Forms.Android.Controls.Resource.Id.disableHome = global::FreshAir.Droid.Resource.Id.disableHome;
+			global::Messier16.Forms.Android.Controls.Resource.Id.edit_query = global::FreshAir.Droid.Resource.Id.edit_query;
+			global::Messier16.Forms.Android.Controls.Resource.Id.end = global::FreshAir.Droid.Resource.Id.end;
+			global::Messier16.Forms.Android.Controls.Resource.Id.end_padder = global::FreshAir.Droid.Resource.Id.end_padder;
+			global::Messier16.Forms.Android.Controls.Resource.Id.enterAlways = global::FreshAir.Droid.Resource.Id.enterAlways;
+			global::Messier16.Forms.Android.Controls.Resource.Id.enterAlwaysCollapsed = global::FreshAir.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Messier16.Forms.Android.Controls.Resource.Id.exitUntilCollapsed = global::FreshAir.Droid.Resource.Id.exitUntilCollapsed;
+			global::Messier16.Forms.Android.Controls.Resource.Id.expand_activities_button = global::FreshAir.Droid.Resource.Id.expand_activities_button;
+			global::Messier16.Forms.Android.Controls.Resource.Id.expanded_menu = global::FreshAir.Droid.Resource.Id.expanded_menu;
+			global::Messier16.Forms.Android.Controls.Resource.Id.fill = global::FreshAir.Droid.Resource.Id.fill;
+			global::Messier16.Forms.Android.Controls.Resource.Id.fill_horizontal = global::FreshAir.Droid.Resource.Id.fill_horizontal;
+			global::Messier16.Forms.Android.Controls.Resource.Id.fill_vertical = global::FreshAir.Droid.Resource.Id.fill_vertical;
+			global::Messier16.Forms.Android.Controls.Resource.Id.@fixed = global::FreshAir.Droid.Resource.Id.@fixed;
+			global::Messier16.Forms.Android.Controls.Resource.Id.home = global::FreshAir.Droid.Resource.Id.home;
+			global::Messier16.Forms.Android.Controls.Resource.Id.homeAsUp = global::FreshAir.Droid.Resource.Id.homeAsUp;
+			global::Messier16.Forms.Android.Controls.Resource.Id.icon = global::FreshAir.Droid.Resource.Id.icon;
+			global::Messier16.Forms.Android.Controls.Resource.Id.icon_group = global::FreshAir.Droid.Resource.Id.icon_group;
+			global::Messier16.Forms.Android.Controls.Resource.Id.ifRoom = global::FreshAir.Droid.Resource.Id.ifRoom;
+			global::Messier16.Forms.Android.Controls.Resource.Id.image = global::FreshAir.Droid.Resource.Id.image;
+			global::Messier16.Forms.Android.Controls.Resource.Id.info = global::FreshAir.Droid.Resource.Id.info;
+			global::Messier16.Forms.Android.Controls.Resource.Id.item_touch_helper_previous_elevation = global::FreshAir.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Id.largeLabel = global::FreshAir.Droid.Resource.Id.largeLabel;
+			global::Messier16.Forms.Android.Controls.Resource.Id.left = global::FreshAir.Droid.Resource.Id.left;
+			global::Messier16.Forms.Android.Controls.Resource.Id.line1 = global::FreshAir.Droid.Resource.Id.line1;
+			global::Messier16.Forms.Android.Controls.Resource.Id.line3 = global::FreshAir.Droid.Resource.Id.line3;
+			global::Messier16.Forms.Android.Controls.Resource.Id.listMode = global::FreshAir.Droid.Resource.Id.listMode;
+			global::Messier16.Forms.Android.Controls.Resource.Id.list_item = global::FreshAir.Droid.Resource.Id.list_item;
+			global::Messier16.Forms.Android.Controls.Resource.Id.masked = global::FreshAir.Droid.Resource.Id.masked;
+			global::Messier16.Forms.Android.Controls.Resource.Id.media_actions = global::FreshAir.Droid.Resource.Id.media_actions;
+			global::Messier16.Forms.Android.Controls.Resource.Id.middle = global::FreshAir.Droid.Resource.Id.middle;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mini = global::FreshAir.Droid.Resource.Id.mini;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_art = global::FreshAir.Droid.Resource.Id.mr_art;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_chooser_list = global::FreshAir.Droid.Resource.Id.mr_chooser_list;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_chooser_route_desc = global::FreshAir.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_chooser_route_icon = global::FreshAir.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_chooser_route_name = global::FreshAir.Droid.Resource.Id.mr_chooser_route_name;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_chooser_title = global::FreshAir.Droid.Resource.Id.mr_chooser_title;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_close = global::FreshAir.Droid.Resource.Id.mr_close;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_control_divider = global::FreshAir.Droid.Resource.Id.mr_control_divider;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_control_playback_ctrl = global::FreshAir.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_control_subtitle = global::FreshAir.Droid.Resource.Id.mr_control_subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_control_title = global::FreshAir.Droid.Resource.Id.mr_control_title;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_control_title_container = global::FreshAir.Droid.Resource.Id.mr_control_title_container;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_custom_control = global::FreshAir.Droid.Resource.Id.mr_custom_control;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_default_control = global::FreshAir.Droid.Resource.Id.mr_default_control;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_dialog_area = global::FreshAir.Droid.Resource.Id.mr_dialog_area;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_expandable_area = global::FreshAir.Droid.Resource.Id.mr_expandable_area;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_group_expand_collapse = global::FreshAir.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_media_main_control = global::FreshAir.Droid.Resource.Id.mr_media_main_control;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_name = global::FreshAir.Droid.Resource.Id.mr_name;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_playback_control = global::FreshAir.Droid.Resource.Id.mr_playback_control;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_title_bar = global::FreshAir.Droid.Resource.Id.mr_title_bar;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_volume_control = global::FreshAir.Droid.Resource.Id.mr_volume_control;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_volume_group_list = global::FreshAir.Droid.Resource.Id.mr_volume_group_list;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_volume_item_icon = global::FreshAir.Droid.Resource.Id.mr_volume_item_icon;
+			global::Messier16.Forms.Android.Controls.Resource.Id.mr_volume_slider = global::FreshAir.Droid.Resource.Id.mr_volume_slider;
+			global::Messier16.Forms.Android.Controls.Resource.Id.multiply = global::FreshAir.Droid.Resource.Id.multiply;
+			global::Messier16.Forms.Android.Controls.Resource.Id.navigation_header_container = global::FreshAir.Droid.Resource.Id.navigation_header_container;
+			global::Messier16.Forms.Android.Controls.Resource.Id.never = global::FreshAir.Droid.Resource.Id.never;
+			global::Messier16.Forms.Android.Controls.Resource.Id.none = global::FreshAir.Droid.Resource.Id.none;
+			global::Messier16.Forms.Android.Controls.Resource.Id.normal = global::FreshAir.Droid.Resource.Id.normal;
+			global::Messier16.Forms.Android.Controls.Resource.Id.notification_background = global::FreshAir.Droid.Resource.Id.notification_background;
+			global::Messier16.Forms.Android.Controls.Resource.Id.notification_main_column = global::FreshAir.Droid.Resource.Id.notification_main_column;
+			global::Messier16.Forms.Android.Controls.Resource.Id.notification_main_column_container = global::FreshAir.Droid.Resource.Id.notification_main_column_container;
+			global::Messier16.Forms.Android.Controls.Resource.Id.parallax = global::FreshAir.Droid.Resource.Id.parallax;
+			global::Messier16.Forms.Android.Controls.Resource.Id.parentPanel = global::FreshAir.Droid.Resource.Id.parentPanel;
+			global::Messier16.Forms.Android.Controls.Resource.Id.pin = global::FreshAir.Droid.Resource.Id.pin;
+			global::Messier16.Forms.Android.Controls.Resource.Id.progress_circular = global::FreshAir.Droid.Resource.Id.progress_circular;
+			global::Messier16.Forms.Android.Controls.Resource.Id.progress_horizontal = global::FreshAir.Droid.Resource.Id.progress_horizontal;
+			global::Messier16.Forms.Android.Controls.Resource.Id.radio = global::FreshAir.Droid.Resource.Id.radio;
+			global::Messier16.Forms.Android.Controls.Resource.Id.right = global::FreshAir.Droid.Resource.Id.right;
+			global::Messier16.Forms.Android.Controls.Resource.Id.right_icon = global::FreshAir.Droid.Resource.Id.right_icon;
+			global::Messier16.Forms.Android.Controls.Resource.Id.right_side = global::FreshAir.Droid.Resource.Id.right_side;
+			global::Messier16.Forms.Android.Controls.Resource.Id.screen = global::FreshAir.Droid.Resource.Id.screen;
+			global::Messier16.Forms.Android.Controls.Resource.Id.scroll = global::FreshAir.Droid.Resource.Id.scroll;
+			global::Messier16.Forms.Android.Controls.Resource.Id.scrollIndicatorDown = global::FreshAir.Droid.Resource.Id.scrollIndicatorDown;
+			global::Messier16.Forms.Android.Controls.Resource.Id.scrollIndicatorUp = global::FreshAir.Droid.Resource.Id.scrollIndicatorUp;
+			global::Messier16.Forms.Android.Controls.Resource.Id.scrollView = global::FreshAir.Droid.Resource.Id.scrollView;
+			global::Messier16.Forms.Android.Controls.Resource.Id.scrollable = global::FreshAir.Droid.Resource.Id.scrollable;
+			global::Messier16.Forms.Android.Controls.Resource.Id.search_badge = global::FreshAir.Droid.Resource.Id.search_badge;
+			global::Messier16.Forms.Android.Controls.Resource.Id.search_bar = global::FreshAir.Droid.Resource.Id.search_bar;
+			global::Messier16.Forms.Android.Controls.Resource.Id.search_button = global::FreshAir.Droid.Resource.Id.search_button;
+			global::Messier16.Forms.Android.Controls.Resource.Id.search_close_btn = global::FreshAir.Droid.Resource.Id.search_close_btn;
+			global::Messier16.Forms.Android.Controls.Resource.Id.search_edit_frame = global::FreshAir.Droid.Resource.Id.search_edit_frame;
+			global::Messier16.Forms.Android.Controls.Resource.Id.search_go_btn = global::FreshAir.Droid.Resource.Id.search_go_btn;
+			global::Messier16.Forms.Android.Controls.Resource.Id.search_mag_icon = global::FreshAir.Droid.Resource.Id.search_mag_icon;
+			global::Messier16.Forms.Android.Controls.Resource.Id.search_plate = global::FreshAir.Droid.Resource.Id.search_plate;
+			global::Messier16.Forms.Android.Controls.Resource.Id.search_src_text = global::FreshAir.Droid.Resource.Id.search_src_text;
+			global::Messier16.Forms.Android.Controls.Resource.Id.search_voice_btn = global::FreshAir.Droid.Resource.Id.search_voice_btn;
+			global::Messier16.Forms.Android.Controls.Resource.Id.select_dialog_listview = global::FreshAir.Droid.Resource.Id.select_dialog_listview;
+			global::Messier16.Forms.Android.Controls.Resource.Id.shortcut = global::FreshAir.Droid.Resource.Id.shortcut;
+			global::Messier16.Forms.Android.Controls.Resource.Id.showCustom = global::FreshAir.Droid.Resource.Id.showCustom;
+			global::Messier16.Forms.Android.Controls.Resource.Id.showHome = global::FreshAir.Droid.Resource.Id.showHome;
+			global::Messier16.Forms.Android.Controls.Resource.Id.showTitle = global::FreshAir.Droid.Resource.Id.showTitle;
+			global::Messier16.Forms.Android.Controls.Resource.Id.smallLabel = global::FreshAir.Droid.Resource.Id.smallLabel;
+			global::Messier16.Forms.Android.Controls.Resource.Id.snackbar_action = global::FreshAir.Droid.Resource.Id.snackbar_action;
+			global::Messier16.Forms.Android.Controls.Resource.Id.snackbar_text = global::FreshAir.Droid.Resource.Id.snackbar_text;
+			global::Messier16.Forms.Android.Controls.Resource.Id.snap = global::FreshAir.Droid.Resource.Id.snap;
+			global::Messier16.Forms.Android.Controls.Resource.Id.spacer = global::FreshAir.Droid.Resource.Id.spacer;
+			global::Messier16.Forms.Android.Controls.Resource.Id.split_action_bar = global::FreshAir.Droid.Resource.Id.split_action_bar;
+			global::Messier16.Forms.Android.Controls.Resource.Id.src_atop = global::FreshAir.Droid.Resource.Id.src_atop;
+			global::Messier16.Forms.Android.Controls.Resource.Id.src_in = global::FreshAir.Droid.Resource.Id.src_in;
+			global::Messier16.Forms.Android.Controls.Resource.Id.src_over = global::FreshAir.Droid.Resource.Id.src_over;
+			global::Messier16.Forms.Android.Controls.Resource.Id.start = global::FreshAir.Droid.Resource.Id.start;
+			global::Messier16.Forms.Android.Controls.Resource.Id.status_bar_latest_event_content = global::FreshAir.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Messier16.Forms.Android.Controls.Resource.Id.submenuarrow = global::FreshAir.Droid.Resource.Id.submenuarrow;
+			global::Messier16.Forms.Android.Controls.Resource.Id.submit_area = global::FreshAir.Droid.Resource.Id.submit_area;
+			global::Messier16.Forms.Android.Controls.Resource.Id.tabMode = global::FreshAir.Droid.Resource.Id.tabMode;
+			global::Messier16.Forms.Android.Controls.Resource.Id.text = global::FreshAir.Droid.Resource.Id.text;
+			global::Messier16.Forms.Android.Controls.Resource.Id.text2 = global::FreshAir.Droid.Resource.Id.text2;
+			global::Messier16.Forms.Android.Controls.Resource.Id.textSpacerNoButtons = global::FreshAir.Droid.Resource.Id.textSpacerNoButtons;
+			global::Messier16.Forms.Android.Controls.Resource.Id.textSpacerNoTitle = global::FreshAir.Droid.Resource.Id.textSpacerNoTitle;
+			global::Messier16.Forms.Android.Controls.Resource.Id.text_input_password_toggle = global::FreshAir.Droid.Resource.Id.text_input_password_toggle;
+			global::Messier16.Forms.Android.Controls.Resource.Id.textinput_counter = global::FreshAir.Droid.Resource.Id.textinput_counter;
+			global::Messier16.Forms.Android.Controls.Resource.Id.textinput_error = global::FreshAir.Droid.Resource.Id.textinput_error;
+			global::Messier16.Forms.Android.Controls.Resource.Id.time = global::FreshAir.Droid.Resource.Id.time;
+			global::Messier16.Forms.Android.Controls.Resource.Id.title = global::FreshAir.Droid.Resource.Id.title;
+			global::Messier16.Forms.Android.Controls.Resource.Id.titleDividerNoCustom = global::FreshAir.Droid.Resource.Id.titleDividerNoCustom;
+			global::Messier16.Forms.Android.Controls.Resource.Id.title_template = global::FreshAir.Droid.Resource.Id.title_template;
+			global::Messier16.Forms.Android.Controls.Resource.Id.top = global::FreshAir.Droid.Resource.Id.top;
+			global::Messier16.Forms.Android.Controls.Resource.Id.topPanel = global::FreshAir.Droid.Resource.Id.topPanel;
+			global::Messier16.Forms.Android.Controls.Resource.Id.touch_outside = global::FreshAir.Droid.Resource.Id.touch_outside;
+			global::Messier16.Forms.Android.Controls.Resource.Id.transition_current_scene = global::FreshAir.Droid.Resource.Id.transition_current_scene;
+			global::Messier16.Forms.Android.Controls.Resource.Id.transition_scene_layoutid_cache = global::FreshAir.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Messier16.Forms.Android.Controls.Resource.Id.up = global::FreshAir.Droid.Resource.Id.up;
+			global::Messier16.Forms.Android.Controls.Resource.Id.useLogo = global::FreshAir.Droid.Resource.Id.useLogo;
+			global::Messier16.Forms.Android.Controls.Resource.Id.view_offset_helper = global::FreshAir.Droid.Resource.Id.view_offset_helper;
+			global::Messier16.Forms.Android.Controls.Resource.Id.visible = global::FreshAir.Droid.Resource.Id.visible;
+			global::Messier16.Forms.Android.Controls.Resource.Id.volume_item_container = global::FreshAir.Droid.Resource.Id.volume_item_container;
+			global::Messier16.Forms.Android.Controls.Resource.Id.withText = global::FreshAir.Droid.Resource.Id.withText;
+			global::Messier16.Forms.Android.Controls.Resource.Id.wrap_content = global::FreshAir.Droid.Resource.Id.wrap_content;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.abc_config_activityDefaultDur = global::FreshAir.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.abc_config_activityShortDur = global::FreshAir.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.app_bar_elevation_anim_duration = global::FreshAir.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.bottom_sheet_slide_duration = global::FreshAir.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.cancel_button_image_alpha = global::FreshAir.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.design_snackbar_text_max_lines = global::FreshAir.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.hide_password_duration = global::FreshAir.Droid.Resource.Integer.hide_password_duration;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::FreshAir.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::FreshAir.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::FreshAir.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.show_password_duration = global::FreshAir.Droid.Resource.Integer.show_password_duration;
+			global::Messier16.Forms.Android.Controls.Resource.Integer.status_bar_notification_info_maxnum = global::FreshAir.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Messier16.Forms.Android.Controls.Resource.Interpolator.mr_fast_out_slow_in = global::FreshAir.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Messier16.Forms.Android.Controls.Resource.Interpolator.mr_linear_out_slow_in = global::FreshAir.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_action_bar_title_item = global::FreshAir.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_action_bar_up_container = global::FreshAir.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_action_menu_item_layout = global::FreshAir.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_action_menu_layout = global::FreshAir.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_action_mode_bar = global::FreshAir.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_action_mode_close_item_material = global::FreshAir.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_activity_chooser_view = global::FreshAir.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_activity_chooser_view_list_item = global::FreshAir.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_alert_dialog_button_bar_material = global::FreshAir.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_alert_dialog_material = global::FreshAir.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_alert_dialog_title_material = global::FreshAir.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_dialog_title_material = global::FreshAir.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_expanded_menu_layout = global::FreshAir.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_list_menu_item_checkbox = global::FreshAir.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_list_menu_item_icon = global::FreshAir.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_list_menu_item_layout = global::FreshAir.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_list_menu_item_radio = global::FreshAir.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_popup_menu_header_item_layout = global::FreshAir.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_popup_menu_item_layout = global::FreshAir.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_screen_content_include = global::FreshAir.Droid.Resource.Layout.abc_screen_content_include;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_screen_simple = global::FreshAir.Droid.Resource.Layout.abc_screen_simple;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_screen_simple_overlay_action_mode = global::FreshAir.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_screen_toolbar = global::FreshAir.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_search_dropdown_item_icons_2line = global::FreshAir.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_search_view = global::FreshAir.Droid.Resource.Layout.abc_search_view;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.abc_select_dialog_material = global::FreshAir.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_bottom_navigation_item = global::FreshAir.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_bottom_sheet_dialog = global::FreshAir.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_layout_snackbar = global::FreshAir.Droid.Resource.Layout.design_layout_snackbar;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_layout_snackbar_include = global::FreshAir.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_layout_tab_icon = global::FreshAir.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_layout_tab_text = global::FreshAir.Droid.Resource.Layout.design_layout_tab_text;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_menu_item_action_area = global::FreshAir.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_navigation_item = global::FreshAir.Droid.Resource.Layout.design_navigation_item;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_navigation_item_header = global::FreshAir.Droid.Resource.Layout.design_navigation_item_header;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_navigation_item_separator = global::FreshAir.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_navigation_item_subheader = global::FreshAir.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_navigation_menu = global::FreshAir.Droid.Resource.Layout.design_navigation_menu;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_navigation_menu_item = global::FreshAir.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.design_text_input_password_icon = global::FreshAir.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.mr_chooser_dialog = global::FreshAir.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.mr_chooser_list_item = global::FreshAir.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.mr_controller_material_dialog_b = global::FreshAir.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.mr_controller_volume_item = global::FreshAir.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.mr_playback_control = global::FreshAir.Droid.Resource.Layout.mr_playback_control;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.mr_volume_control = global::FreshAir.Droid.Resource.Layout.mr_volume_control;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_action = global::FreshAir.Droid.Resource.Layout.notification_action;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_action_tombstone = global::FreshAir.Droid.Resource.Layout.notification_action_tombstone;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_media_action = global::FreshAir.Droid.Resource.Layout.notification_media_action;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_media_cancel_action = global::FreshAir.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_template_big_media = global::FreshAir.Droid.Resource.Layout.notification_template_big_media;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_template_big_media_custom = global::FreshAir.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_template_big_media_narrow = global::FreshAir.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_template_big_media_narrow_custom = global::FreshAir.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_template_custom_big = global::FreshAir.Droid.Resource.Layout.notification_template_custom_big;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_template_icon_group = global::FreshAir.Droid.Resource.Layout.notification_template_icon_group;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_template_lines_media = global::FreshAir.Droid.Resource.Layout.notification_template_lines_media;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_template_media = global::FreshAir.Droid.Resource.Layout.notification_template_media;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_template_media_custom = global::FreshAir.Droid.Resource.Layout.notification_template_media_custom;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_template_part_chronometer = global::FreshAir.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.notification_template_part_time = global::FreshAir.Droid.Resource.Layout.notification_template_part_time;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.SegmentedControl = global::FreshAir.Droid.Resource.Layout.SegmentedControl;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.select_dialog_item_material = global::FreshAir.Droid.Resource.Layout.select_dialog_item_material;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.select_dialog_multichoice_material = global::FreshAir.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.select_dialog_singlechoice_material = global::FreshAir.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Messier16.Forms.Android.Controls.Resource.Layout.support_simple_spinner_dropdown_item = global::FreshAir.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Messier16.Forms.Android.Controls.Resource.String.ApplicationName = global::FreshAir.Droid.Resource.String.ApplicationName;
+			global::Messier16.Forms.Android.Controls.Resource.String.Hello = global::FreshAir.Droid.Resource.String.Hello;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_action_bar_home_description = global::FreshAir.Droid.Resource.String.abc_action_bar_home_description;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_action_bar_up_description = global::FreshAir.Droid.Resource.String.abc_action_bar_up_description;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_action_menu_overflow_description = global::FreshAir.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_action_mode_done = global::FreshAir.Droid.Resource.String.abc_action_mode_done;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_activity_chooser_view_see_all = global::FreshAir.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_activitychooserview_choose_application = global::FreshAir.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_capital_off = global::FreshAir.Droid.Resource.String.abc_capital_off;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_capital_on = global::FreshAir.Droid.Resource.String.abc_capital_on;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_body_1_material = global::FreshAir.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_body_2_material = global::FreshAir.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_button_material = global::FreshAir.Droid.Resource.String.abc_font_family_button_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_caption_material = global::FreshAir.Droid.Resource.String.abc_font_family_caption_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_display_1_material = global::FreshAir.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_display_2_material = global::FreshAir.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_display_3_material = global::FreshAir.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_display_4_material = global::FreshAir.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_headline_material = global::FreshAir.Droid.Resource.String.abc_font_family_headline_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_menu_material = global::FreshAir.Droid.Resource.String.abc_font_family_menu_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_subhead_material = global::FreshAir.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_font_family_title_material = global::FreshAir.Droid.Resource.String.abc_font_family_title_material;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_search_hint = global::FreshAir.Droid.Resource.String.abc_search_hint;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_searchview_description_clear = global::FreshAir.Droid.Resource.String.abc_searchview_description_clear;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_searchview_description_query = global::FreshAir.Droid.Resource.String.abc_searchview_description_query;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_searchview_description_search = global::FreshAir.Droid.Resource.String.abc_searchview_description_search;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_searchview_description_submit = global::FreshAir.Droid.Resource.String.abc_searchview_description_submit;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_searchview_description_voice = global::FreshAir.Droid.Resource.String.abc_searchview_description_voice;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_shareactionprovider_share_with = global::FreshAir.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_shareactionprovider_share_with_application = global::FreshAir.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Messier16.Forms.Android.Controls.Resource.String.abc_toolbar_collapse_description = global::FreshAir.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Messier16.Forms.Android.Controls.Resource.String.appbar_scrolling_view_behavior = global::FreshAir.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Messier16.Forms.Android.Controls.Resource.String.bottom_sheet_behavior = global::FreshAir.Droid.Resource.String.bottom_sheet_behavior;
+			global::Messier16.Forms.Android.Controls.Resource.String.character_counter_pattern = global::FreshAir.Droid.Resource.String.character_counter_pattern;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_button_content_description = global::FreshAir.Droid.Resource.String.mr_button_content_description;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_cast_button_connected = global::FreshAir.Droid.Resource.String.mr_cast_button_connected;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_cast_button_connecting = global::FreshAir.Droid.Resource.String.mr_cast_button_connecting;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_cast_button_disconnected = global::FreshAir.Droid.Resource.String.mr_cast_button_disconnected;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_chooser_searching = global::FreshAir.Droid.Resource.String.mr_chooser_searching;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_chooser_title = global::FreshAir.Droid.Resource.String.mr_chooser_title;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_album_art = global::FreshAir.Droid.Resource.String.mr_controller_album_art;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_casting_screen = global::FreshAir.Droid.Resource.String.mr_controller_casting_screen;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_close_description = global::FreshAir.Droid.Resource.String.mr_controller_close_description;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_collapse_group = global::FreshAir.Droid.Resource.String.mr_controller_collapse_group;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_disconnect = global::FreshAir.Droid.Resource.String.mr_controller_disconnect;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_expand_group = global::FreshAir.Droid.Resource.String.mr_controller_expand_group;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_no_info_available = global::FreshAir.Droid.Resource.String.mr_controller_no_info_available;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_no_media_selected = global::FreshAir.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_pause = global::FreshAir.Droid.Resource.String.mr_controller_pause;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_play = global::FreshAir.Droid.Resource.String.mr_controller_play;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_stop = global::FreshAir.Droid.Resource.String.mr_controller_stop;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_stop_casting = global::FreshAir.Droid.Resource.String.mr_controller_stop_casting;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_controller_volume_slider = global::FreshAir.Droid.Resource.String.mr_controller_volume_slider;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_system_route_name = global::FreshAir.Droid.Resource.String.mr_system_route_name;
+			global::Messier16.Forms.Android.Controls.Resource.String.mr_user_route_category_name = global::FreshAir.Droid.Resource.String.mr_user_route_category_name;
+			global::Messier16.Forms.Android.Controls.Resource.String.password_toggle_content_description = global::FreshAir.Droid.Resource.String.password_toggle_content_description;
+			global::Messier16.Forms.Android.Controls.Resource.String.path_password_eye = global::FreshAir.Droid.Resource.String.path_password_eye;
+			global::Messier16.Forms.Android.Controls.Resource.String.path_password_eye_mask_strike_through = global::FreshAir.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Messier16.Forms.Android.Controls.Resource.String.path_password_eye_mask_visible = global::FreshAir.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Messier16.Forms.Android.Controls.Resource.String.path_password_strike_through = global::FreshAir.Droid.Resource.String.path_password_strike_through;
+			global::Messier16.Forms.Android.Controls.Resource.String.search_menu_title = global::FreshAir.Droid.Resource.String.search_menu_title;
+			global::Messier16.Forms.Android.Controls.Resource.String.status_bar_notification_info_overflow = global::FreshAir.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.AlertDialog_AppCompat = global::FreshAir.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.AlertDialog_AppCompat_Light = global::FreshAir.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Animation_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Animation_AppCompat_DropDownUp = global::FreshAir.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Animation_Design_BottomSheetDialog = global::FreshAir.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_AlertDialog_AppCompat = global::FreshAir.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Animation_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::FreshAir.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_CardView = global::FreshAir.Droid.Resource.Style.Base_CardView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FreshAir.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FreshAir.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Button = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Large = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Small = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Title = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FreshAir.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::FreshAir.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_ThemeOverlay_AppCompat = global::FreshAir.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::FreshAir.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::FreshAir.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::FreshAir.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::FreshAir.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::FreshAir.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::FreshAir.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::FreshAir.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V21_Theme_AppCompat = global::FreshAir.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FreshAir.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V22_Theme_AppCompat = global::FreshAir.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V23_Theme_AppCompat = global::FreshAir.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V23_Theme_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V7_Theme_AppCompat = global::FreshAir.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V7_Theme_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::FreshAir.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::FreshAir.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::FreshAir.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ActionBar = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ActionButton = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ActionMode = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Button = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Button_Small = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_EditText = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ImageButton = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ListView = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_RatingBar = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_SearchView = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_SeekBar = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Spinner = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FreshAir.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_Design_AppBarLayout = global::FreshAir.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Base_Widget_Design_TabLayout = global::FreshAir.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Style.CardView = global::FreshAir.Droid.Resource.Style.CardView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.CardView_Dark = global::FreshAir.Droid.Resource.Style.CardView_Dark;
+			global::Messier16.Forms.Android.Controls.Resource.Style.CardView_Light = global::FreshAir.Droid.Resource.Style.CardView_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_AppCompat = global::FreshAir.Droid.Resource.Style.Platform_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_ThemeOverlay_AppCompat = global::FreshAir.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::FreshAir.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_V11_AppCompat = global::FreshAir.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_V11_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_V14_AppCompat = global::FreshAir.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_V14_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_V21_AppCompat = global::FreshAir.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_V21_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_V25_AppCompat = global::FreshAir.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_V25_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Platform_Widget_AppCompat_Spinner = global::FreshAir.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::FreshAir.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::FreshAir.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::FreshAir.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::FreshAir.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::FreshAir.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::FreshAir.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::FreshAir.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::FreshAir.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::FreshAir.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::FreshAir.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FreshAir.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::FreshAir.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FreshAir.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Messier16.Forms.Android.Controls.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FreshAir.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.SegmentedControlOption = global::FreshAir.Droid.Resource.Style.SegmentedControlOption;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Body1 = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Body2 = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Button = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Caption = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Display1 = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Display2 = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Display3 = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Display4 = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Headline = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Inverse = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Large = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Medium = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Menu = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Small = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Subhead = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Title = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FreshAir.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::FreshAir.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_Design_Counter = global::FreshAir.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_Design_Counter_Overflow = global::FreshAir.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_Design_Error = global::FreshAir.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_Design_Hint = global::FreshAir.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FreshAir.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_Design_Tab = global::FreshAir.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::FreshAir.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::FreshAir.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_MediaRouter_Title = global::FreshAir.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FreshAir.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FreshAir.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FreshAir.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat = global::FreshAir.Droid.Resource.Style.Theme_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_CompactMenu = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_DayNight = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_Light = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_Light_Dialog = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_AppCompat_NoActionBar = global::FreshAir.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_Design = global::FreshAir.Droid.Resource.Style.Theme_Design;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_Design_BottomSheetDialog = global::FreshAir.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_Design_Light = global::FreshAir.Droid.Resource.Style.Theme_Design_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::FreshAir.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_Design_Light_NoActionBar = global::FreshAir.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_Design_NoActionBar = global::FreshAir.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_MediaRouter = global::FreshAir.Droid.Resource.Style.Theme_MediaRouter;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_MediaRouter_Light = global::FreshAir.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::FreshAir.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Theme_MediaRouter_LightControlPanel = global::FreshAir.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Messier16.Forms.Android.Controls.Resource.Style.ThemeOverlay_AppCompat = global::FreshAir.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FreshAir.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FreshAir.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Messier16.Forms.Android.Controls.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::FreshAir.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FreshAir.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FreshAir.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Messier16.Forms.Android.Controls.Resource.Style.ThemeOverlay_AppCompat_Light = global::FreshAir.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::FreshAir.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Messier16.Forms.Android.Controls.Resource.Style.ThemeOverlay_MediaRouter_Light = global::FreshAir.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ActionBar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ActionButton = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ActionMode = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ActivityChooserView = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Button = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Button_Borderless = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Button_Colored = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Button_Small = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ButtonBar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_EditText = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ImageButton = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionBar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionButton = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_SearchView = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ListMenuView = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ListPopupWindow = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ListView = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ListView_DropDown = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ListView_Menu = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_PopupMenu = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_PopupWindow = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ProgressBar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_RatingBar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_RatingBar_Small = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_SearchView = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_SeekBar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Spinner = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Toolbar = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::FreshAir.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_Design_AppBarLayout = global::FreshAir.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_Design_BottomNavigationView = global::FreshAir.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_Design_BottomSheet_Modal = global::FreshAir.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_Design_CollapsingToolbar = global::FreshAir.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_Design_CoordinatorLayout = global::FreshAir.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_Design_FloatingActionButton = global::FreshAir.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_Design_NavigationView = global::FreshAir.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FreshAir.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_Design_Snackbar = global::FreshAir.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_Design_TabLayout = global::FreshAir.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_Design_TextInputLayout = global::FreshAir.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::FreshAir.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Messier16.Forms.Android.Controls.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::FreshAir.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar = global::FreshAir.Droid.Resource.Styleable.ActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_background = global::FreshAir.Droid.Resource.Styleable.ActionBar_background;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_backgroundSplit = global::FreshAir.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_backgroundStacked = global::FreshAir.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_contentInsetEnd = global::FreshAir.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::FreshAir.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_contentInsetLeft = global::FreshAir.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_contentInsetRight = global::FreshAir.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_contentInsetStart = global::FreshAir.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::FreshAir.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_customNavigationLayout = global::FreshAir.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_displayOptions = global::FreshAir.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_divider = global::FreshAir.Droid.Resource.Styleable.ActionBar_divider;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_elevation = global::FreshAir.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_height = global::FreshAir.Droid.Resource.Styleable.ActionBar_height;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_hideOnContentScroll = global::FreshAir.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_homeAsUpIndicator = global::FreshAir.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_homeLayout = global::FreshAir.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_icon = global::FreshAir.Droid.Resource.Styleable.ActionBar_icon;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::FreshAir.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_itemPadding = global::FreshAir.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_logo = global::FreshAir.Droid.Resource.Styleable.ActionBar_logo;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_navigationMode = global::FreshAir.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_popupTheme = global::FreshAir.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_progressBarPadding = global::FreshAir.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_progressBarStyle = global::FreshAir.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_subtitle = global::FreshAir.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_subtitleTextStyle = global::FreshAir.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_title = global::FreshAir.Droid.Resource.Styleable.ActionBar_title;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBar_titleTextStyle = global::FreshAir.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBarLayout = global::FreshAir.Droid.Resource.Styleable.ActionBarLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::FreshAir.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionMenuItemView = global::FreshAir.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionMenuItemView_android_minWidth = global::FreshAir.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionMenuView = global::FreshAir.Droid.Resource.Styleable.ActionMenuView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionMode = global::FreshAir.Droid.Resource.Styleable.ActionMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionMode_background = global::FreshAir.Droid.Resource.Styleable.ActionMode_background;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionMode_backgroundSplit = global::FreshAir.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionMode_closeItemLayout = global::FreshAir.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionMode_height = global::FreshAir.Droid.Resource.Styleable.ActionMode_height;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionMode_subtitleTextStyle = global::FreshAir.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActionMode_titleTextStyle = global::FreshAir.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActivityChooserView = global::FreshAir.Droid.Resource.Styleable.ActivityChooserView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::FreshAir.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ActivityChooserView_initialActivityCount = global::FreshAir.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AlertDialog = global::FreshAir.Droid.Resource.Styleable.AlertDialog;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AlertDialog_android_layout = global::FreshAir.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::FreshAir.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AlertDialog_listItemLayout = global::FreshAir.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AlertDialog_listLayout = global::FreshAir.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::FreshAir.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AlertDialog_showTitle = global::FreshAir.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::FreshAir.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppBarLayout = global::FreshAir.Droid.Resource.Styleable.AppBarLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppBarLayout_android_background = global::FreshAir.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppBarLayout_elevation = global::FreshAir.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppBarLayout_expanded = global::FreshAir.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppBarLayoutStates = global::FreshAir.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::FreshAir.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::FreshAir.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppBarLayout_Layout = global::FreshAir.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FreshAir.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FreshAir.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatImageView = global::FreshAir.Droid.Resource.Styleable.AppCompatImageView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatImageView_android_src = global::FreshAir.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatImageView_srcCompat = global::FreshAir.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatImageView_tint = global::FreshAir.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatImageView_tintMode = global::FreshAir.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatSeekBar = global::FreshAir.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatSeekBar_android_thumb = global::FreshAir.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatSeekBar_tickMark = global::FreshAir.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::FreshAir.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::FreshAir.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTextHelper = global::FreshAir.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::FreshAir.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::FreshAir.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::FreshAir.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::FreshAir.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::FreshAir.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::FreshAir.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::FreshAir.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTextView = global::FreshAir.Droid.Resource.Styleable.AppCompatTextView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTextView_android_textAppearance = global::FreshAir.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTextView_textAllCaps = global::FreshAir.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionBarDivider = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionBarSize = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionBarStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionBarTheme = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModeBackground = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModeStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_buttonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_checkboxStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_colorAccent = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_colorControlActivated = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_colorControlNormal = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_colorPrimary = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_controlBackground = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_dialogTheme = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_dividerVertical = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_editTextBackground = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_editTextColor = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_editTextStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_panelBackground = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_searchViewStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_seekBarStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_spinnerStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_switchStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_toolbarStyle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_windowActionBar = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FreshAir.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.BottomNavigationView = global::FreshAir.Droid.Resource.Styleable.BottomNavigationView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.BottomNavigationView_elevation = global::FreshAir.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.BottomNavigationView_itemBackground = global::FreshAir.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.BottomNavigationView_itemIconTint = global::FreshAir.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.BottomNavigationView_itemTextColor = global::FreshAir.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.BottomNavigationView_menu = global::FreshAir.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.BottomSheetBehavior_Layout = global::FreshAir.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FreshAir.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FreshAir.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FreshAir.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ButtonBarLayout = global::FreshAir.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ButtonBarLayout_allowStacking = global::FreshAir.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView = global::FreshAir.Droid.Resource.Styleable.CardView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_android_minHeight = global::FreshAir.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_android_minWidth = global::FreshAir.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_cardBackgroundColor = global::FreshAir.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_cardCornerRadius = global::FreshAir.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_cardElevation = global::FreshAir.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_cardMaxElevation = global::FreshAir.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_cardPreventCornerOverlap = global::FreshAir.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_cardUseCompatPadding = global::FreshAir.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_contentPadding = global::FreshAir.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_contentPaddingBottom = global::FreshAir.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_contentPaddingLeft = global::FreshAir.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_contentPaddingRight = global::FreshAir.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CardView_contentPaddingTop = global::FreshAir.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_title = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FreshAir.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ColorStateListItem = global::FreshAir.Droid.Resource.Styleable.ColorStateListItem;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ColorStateListItem_alpha = global::FreshAir.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ColorStateListItem_android_alpha = global::FreshAir.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ColorStateListItem_android_color = global::FreshAir.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CompoundButton = global::FreshAir.Droid.Resource.Styleable.CompoundButton;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CompoundButton_android_button = global::FreshAir.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CompoundButton_buttonTint = global::FreshAir.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CompoundButton_buttonTintMode = global::FreshAir.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CoordinatorLayout = global::FreshAir.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CoordinatorLayout_keylines = global::FreshAir.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FreshAir.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CoordinatorLayout_Layout = global::FreshAir.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FreshAir.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FreshAir.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FreshAir.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FreshAir.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FreshAir.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FreshAir.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FreshAir.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DesignTheme = global::FreshAir.Droid.Resource.Styleable.DesignTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::FreshAir.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DesignTheme_bottomSheetStyle = global::FreshAir.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DesignTheme_textColorError = global::FreshAir.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DrawerArrowToggle = global::FreshAir.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::FreshAir.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::FreshAir.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DrawerArrowToggle_barLength = global::FreshAir.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DrawerArrowToggle_color = global::FreshAir.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DrawerArrowToggle_drawableSize = global::FreshAir.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FreshAir.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DrawerArrowToggle_spinBars = global::FreshAir.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.DrawerArrowToggle_thickness = global::FreshAir.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.FloatingActionButton = global::FreshAir.Droid.Resource.Styleable.FloatingActionButton;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.FloatingActionButton_backgroundTint = global::FreshAir.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FreshAir.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.FloatingActionButton_borderWidth = global::FreshAir.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.FloatingActionButton_elevation = global::FreshAir.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.FloatingActionButton_fabSize = global::FreshAir.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FreshAir.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.FloatingActionButton_rippleColor = global::FreshAir.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FreshAir.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FreshAir.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FreshAir.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ForegroundLinearLayout = global::FreshAir.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FreshAir.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FreshAir.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FreshAir.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_android_gravity = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_android_orientation = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_divider = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_showDividers = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_Layout = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::FreshAir.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ListPopupWindow = global::FreshAir.Droid.Resource.Styleable.ListPopupWindow;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FreshAir.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FreshAir.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MediaRouteButton = global::FreshAir.Droid.Resource.Styleable.MediaRouteButton;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MediaRouteButton_android_minHeight = global::FreshAir.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MediaRouteButton_android_minWidth = global::FreshAir.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::FreshAir.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuGroup = global::FreshAir.Droid.Resource.Styleable.MenuGroup;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FreshAir.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuGroup_android_enabled = global::FreshAir.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuGroup_android_id = global::FreshAir.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuGroup_android_menuCategory = global::FreshAir.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuGroup_android_orderInCategory = global::FreshAir.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuGroup_android_visible = global::FreshAir.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem = global::FreshAir.Droid.Resource.Styleable.MenuItem;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_actionLayout = global::FreshAir.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_actionProviderClass = global::FreshAir.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_actionViewClass = global::FreshAir.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_checkable = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_checked = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_enabled = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_icon = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_id = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_menuCategory = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_numericShortcut = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_onClick = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_orderInCategory = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_title = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_titleCondensed = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_android_visible = global::FreshAir.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuItem_showAsAction = global::FreshAir.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuView = global::FreshAir.Droid.Resource.Styleable.MenuView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuView_android_headerBackground = global::FreshAir.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuView_android_horizontalDivider = global::FreshAir.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuView_android_itemBackground = global::FreshAir.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::FreshAir.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuView_android_itemTextAppearance = global::FreshAir.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuView_android_verticalDivider = global::FreshAir.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuView_android_windowAnimationStyle = global::FreshAir.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuView_preserveIconSpacing = global::FreshAir.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.MenuView_subMenuArrow = global::FreshAir.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.NavigationView = global::FreshAir.Droid.Resource.Styleable.NavigationView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.NavigationView_android_background = global::FreshAir.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::FreshAir.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.NavigationView_android_maxWidth = global::FreshAir.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.NavigationView_elevation = global::FreshAir.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.NavigationView_headerLayout = global::FreshAir.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.NavigationView_itemBackground = global::FreshAir.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.NavigationView_itemIconTint = global::FreshAir.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.NavigationView_itemTextAppearance = global::FreshAir.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.NavigationView_itemTextColor = global::FreshAir.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.NavigationView_menu = global::FreshAir.Droid.Resource.Styleable.NavigationView_menu;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.PopupWindow = global::FreshAir.Droid.Resource.Styleable.PopupWindow;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FreshAir.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.PopupWindow_android_popupBackground = global::FreshAir.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.PopupWindow_overlapAnchor = global::FreshAir.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.PopupWindowBackgroundState = global::FreshAir.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::FreshAir.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.RecycleListView = global::FreshAir.Droid.Resource.Styleable.RecycleListView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::FreshAir.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::FreshAir.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.RecyclerView = global::FreshAir.Droid.Resource.Styleable.RecyclerView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FreshAir.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.RecyclerView_android_orientation = global::FreshAir.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.RecyclerView_layoutManager = global::FreshAir.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.RecyclerView_reverseLayout = global::FreshAir.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.RecyclerView_spanCount = global::FreshAir.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.RecyclerView_stackFromEnd = global::FreshAir.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ScrimInsetsFrameLayout = global::FreshAir.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FreshAir.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ScrollingViewBehavior_Layout = global::FreshAir.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FreshAir.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView = global::FreshAir.Droid.Resource.Styleable.SearchView;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_android_focusable = global::FreshAir.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_android_imeOptions = global::FreshAir.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_android_inputType = global::FreshAir.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_android_maxWidth = global::FreshAir.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_closeIcon = global::FreshAir.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_commitIcon = global::FreshAir.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_defaultQueryHint = global::FreshAir.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_goIcon = global::FreshAir.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_iconifiedByDefault = global::FreshAir.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_layout = global::FreshAir.Droid.Resource.Styleable.SearchView_layout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_queryBackground = global::FreshAir.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_queryHint = global::FreshAir.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_searchHintIcon = global::FreshAir.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_searchIcon = global::FreshAir.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_submitBackground = global::FreshAir.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_suggestionRowLayout = global::FreshAir.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SearchView_voiceIcon = global::FreshAir.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SegmentedControlOption = global::FreshAir.Droid.Resource.Styleable.SegmentedControlOption;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SegmentedControlOption_lineColor = global::FreshAir.Droid.Resource.Styleable.SegmentedControlOption_lineColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SegmentedControlOption_lineHeightSelected = global::FreshAir.Droid.Resource.Styleable.SegmentedControlOption_lineHeightSelected;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SegmentedControlOption_lineHeightUnselected = global::FreshAir.Droid.Resource.Styleable.SegmentedControlOption_lineHeightUnselected;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SegmentedControlOption_segmentedControlOptionStyle = global::FreshAir.Droid.Resource.Styleable.SegmentedControlOption_segmentedControlOptionStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SnackbarLayout = global::FreshAir.Droid.Resource.Styleable.SnackbarLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FreshAir.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SnackbarLayout_elevation = global::FreshAir.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FreshAir.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Spinner = global::FreshAir.Droid.Resource.Styleable.Spinner;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Spinner_android_dropDownWidth = global::FreshAir.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Spinner_android_entries = global::FreshAir.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Spinner_android_popupBackground = global::FreshAir.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Spinner_android_prompt = global::FreshAir.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Spinner_popupTheme = global::FreshAir.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat = global::FreshAir.Droid.Resource.Styleable.SwitchCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_android_textOff = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_android_textOn = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_android_thumb = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_showText = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_splitTrack = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_switchMinWidth = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_switchPadding = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_switchTextAppearance = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_thumbTextPadding = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_thumbTint = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_thumbTintMode = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_track = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_trackTint = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.SwitchCompat_trackTintMode = global::FreshAir.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabItem = global::FreshAir.Droid.Resource.Styleable.TabItem;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabItem_android_icon = global::FreshAir.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabItem_android_layout = global::FreshAir.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabItem_android_text = global::FreshAir.Droid.Resource.Styleable.TabItem_android_text;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout = global::FreshAir.Droid.Resource.Styleable.TabLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabBackground = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabContentStart = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabGravity = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabIndicatorColor = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabIndicatorHeight = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabMaxWidth = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabMinWidth = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabMode = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabPadding = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabPaddingBottom = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabPaddingEnd = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabPaddingStart = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabPaddingTop = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabSelectedTextColor = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabTextAppearance = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TabLayout_tabTextColor = global::FreshAir.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextAppearance = global::FreshAir.Droid.Resource.Styleable.TextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextAppearance_android_shadowColor = global::FreshAir.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextAppearance_android_shadowDx = global::FreshAir.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextAppearance_android_shadowDy = global::FreshAir.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextAppearance_android_shadowRadius = global::FreshAir.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextAppearance_android_textColor = global::FreshAir.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextAppearance_android_textColorHint = global::FreshAir.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextAppearance_android_textSize = global::FreshAir.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextAppearance_android_textStyle = global::FreshAir.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextAppearance_android_typeface = global::FreshAir.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextAppearance_textAllCaps = global::FreshAir.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout = global::FreshAir.Droid.Resource.Styleable.TextInputLayout;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_android_hint = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_android_textColorHint = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_counterEnabled = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_counterMaxLength = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_errorEnabled = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_hintEnabled = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FreshAir.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar = global::FreshAir.Droid.Resource.Styleable.Toolbar;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_android_gravity = global::FreshAir.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_android_minHeight = global::FreshAir.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_buttonGravity = global::FreshAir.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_collapseContentDescription = global::FreshAir.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_collapseIcon = global::FreshAir.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_contentInsetEnd = global::FreshAir.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::FreshAir.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_contentInsetLeft = global::FreshAir.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_contentInsetRight = global::FreshAir.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_contentInsetStart = global::FreshAir.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::FreshAir.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_logo = global::FreshAir.Droid.Resource.Styleable.Toolbar_logo;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_logoDescription = global::FreshAir.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_maxButtonHeight = global::FreshAir.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_navigationContentDescription = global::FreshAir.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_navigationIcon = global::FreshAir.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_popupTheme = global::FreshAir.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_subtitle = global::FreshAir.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_subtitleTextAppearance = global::FreshAir.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_subtitleTextColor = global::FreshAir.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_title = global::FreshAir.Droid.Resource.Styleable.Toolbar_title;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_titleMargin = global::FreshAir.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_titleMarginBottom = global::FreshAir.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_titleMarginEnd = global::FreshAir.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_titleMarginStart = global::FreshAir.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_titleMarginTop = global::FreshAir.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_titleMargins = global::FreshAir.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_titleTextAppearance = global::FreshAir.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.Toolbar_titleTextColor = global::FreshAir.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.View = global::FreshAir.Droid.Resource.Styleable.View;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.View_android_focusable = global::FreshAir.Droid.Resource.Styleable.View_android_focusable;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.View_android_theme = global::FreshAir.Droid.Resource.Styleable.View_android_theme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.View_paddingEnd = global::FreshAir.Droid.Resource.Styleable.View_paddingEnd;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.View_paddingStart = global::FreshAir.Droid.Resource.Styleable.View_paddingStart;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.View_theme = global::FreshAir.Droid.Resource.Styleable.View_theme;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ViewBackgroundHelper = global::FreshAir.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ViewBackgroundHelper_android_background = global::FreshAir.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FreshAir.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FreshAir.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ViewStubCompat = global::FreshAir.Droid.Resource.Styleable.ViewStubCompat;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ViewStubCompat_android_id = global::FreshAir.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FreshAir.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Messier16.Forms.Android.Controls.Resource.Styleable.ViewStubCompat_android_layout = global::FreshAir.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::FreshAir.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::FreshAir.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::FreshAir.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -2718,6 +4828,15 @@ namespace FreshAir.Droid
 			// aapt resource value: 0x7f01011c
 			public const int layout_scrollInterpolator = 2130772252;
 			
+			// aapt resource value: 0x7f010174
+			public const int lineColor = 2130772340;
+			
+			// aapt resource value: 0x7f010176
+			public const int lineHeightSelected = 2130772342;
+			
+			// aapt resource value: 0x7f010175
+			public const int lineHeightUnselected = 2130772341;
+			
 			// aapt resource value: 0x7f0100a7
 			public const int listChoiceBackgroundIndicator = 2130772135;
 			
@@ -2924,6 +5043,9 @@ namespace FreshAir.Droid
 			
 			// aapt resource value: 0x7f0100c4
 			public const int seekBarStyle = 2130772164;
+			
+			// aapt resource value: 0x7f010173
+			public const int segmentedControlOptionStyle = 2130772339;
 			
 			// aapt resource value: 0x7f010089
 			public const int selectableItemBackground = 2130772105;
@@ -3266,44 +5388,44 @@ namespace FreshAir.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0d004f
-			public const int abc_background_cache_hint_selector_material_dark = 2131558479;
-			
-			// aapt resource value: 0x7f0d0050
-			public const int abc_background_cache_hint_selector_material_light = 2131558480;
-			
-			// aapt resource value: 0x7f0d0051
-			public const int abc_btn_colored_borderless_text_material = 2131558481;
-			
-			// aapt resource value: 0x7f0d0052
-			public const int abc_btn_colored_text_material = 2131558482;
-			
 			// aapt resource value: 0x7f0d0053
-			public const int abc_color_highlight_material = 2131558483;
+			public const int abc_background_cache_hint_selector_material_dark = 2131558483;
 			
 			// aapt resource value: 0x7f0d0054
-			public const int abc_hint_foreground_material_dark = 2131558484;
+			public const int abc_background_cache_hint_selector_material_light = 2131558484;
 			
 			// aapt resource value: 0x7f0d0055
-			public const int abc_hint_foreground_material_light = 2131558485;
+			public const int abc_btn_colored_borderless_text_material = 2131558485;
+			
+			// aapt resource value: 0x7f0d0056
+			public const int abc_btn_colored_text_material = 2131558486;
+			
+			// aapt resource value: 0x7f0d0057
+			public const int abc_color_highlight_material = 2131558487;
+			
+			// aapt resource value: 0x7f0d0058
+			public const int abc_hint_foreground_material_dark = 2131558488;
+			
+			// aapt resource value: 0x7f0d0059
+			public const int abc_hint_foreground_material_light = 2131558489;
 			
 			// aapt resource value: 0x7f0d0004
 			public const int abc_input_method_navigation_guard = 2131558404;
 			
-			// aapt resource value: 0x7f0d0056
-			public const int abc_primary_text_disable_only_material_dark = 2131558486;
-			
-			// aapt resource value: 0x7f0d0057
-			public const int abc_primary_text_disable_only_material_light = 2131558487;
-			
-			// aapt resource value: 0x7f0d0058
-			public const int abc_primary_text_material_dark = 2131558488;
-			
-			// aapt resource value: 0x7f0d0059
-			public const int abc_primary_text_material_light = 2131558489;
-			
 			// aapt resource value: 0x7f0d005a
-			public const int abc_search_url_text = 2131558490;
+			public const int abc_primary_text_disable_only_material_dark = 2131558490;
+			
+			// aapt resource value: 0x7f0d005b
+			public const int abc_primary_text_disable_only_material_light = 2131558491;
+			
+			// aapt resource value: 0x7f0d005c
+			public const int abc_primary_text_material_dark = 2131558492;
+			
+			// aapt resource value: 0x7f0d005d
+			public const int abc_primary_text_material_light = 2131558493;
+			
+			// aapt resource value: 0x7f0d005e
+			public const int abc_search_url_text = 2131558494;
 			
 			// aapt resource value: 0x7f0d0005
 			public const int abc_search_url_text_normal = 2131558405;
@@ -3314,29 +5436,29 @@ namespace FreshAir.Droid
 			// aapt resource value: 0x7f0d0007
 			public const int abc_search_url_text_selected = 2131558407;
 			
-			// aapt resource value: 0x7f0d005b
-			public const int abc_secondary_text_material_dark = 2131558491;
-			
-			// aapt resource value: 0x7f0d005c
-			public const int abc_secondary_text_material_light = 2131558492;
-			
-			// aapt resource value: 0x7f0d005d
-			public const int abc_tint_btn_checkable = 2131558493;
-			
-			// aapt resource value: 0x7f0d005e
-			public const int abc_tint_default = 2131558494;
-			
 			// aapt resource value: 0x7f0d005f
-			public const int abc_tint_edittext = 2131558495;
+			public const int abc_secondary_text_material_dark = 2131558495;
 			
 			// aapt resource value: 0x7f0d0060
-			public const int abc_tint_seek_thumb = 2131558496;
+			public const int abc_secondary_text_material_light = 2131558496;
 			
 			// aapt resource value: 0x7f0d0061
-			public const int abc_tint_spinner = 2131558497;
+			public const int abc_tint_btn_checkable = 2131558497;
 			
 			// aapt resource value: 0x7f0d0062
-			public const int abc_tint_switch_track = 2131558498;
+			public const int abc_tint_default = 2131558498;
+			
+			// aapt resource value: 0x7f0d0063
+			public const int abc_tint_edittext = 2131558499;
+			
+			// aapt resource value: 0x7f0d0064
+			public const int abc_tint_seek_thumb = 2131558500;
+			
+			// aapt resource value: 0x7f0d0065
+			public const int abc_tint_spinner = 2131558501;
+			
+			// aapt resource value: 0x7f0d0066
+			public const int abc_tint_switch_track = 2131558502;
 			
 			// aapt resource value: 0x7f0d0008
 			public const int accent_material_dark = 2131558408;
@@ -3392,20 +5514,20 @@ namespace FreshAir.Droid
 			// aapt resource value: 0x7f0d0003
 			public const int cardview_shadow_start_color = 2131558403;
 			
-			// aapt resource value: 0x7f0d004e
-			public const int colorAccent = 2131558478;
+			// aapt resource value: 0x7f0d0052
+			public const int colorAccent = 2131558482;
 			
-			// aapt resource value: 0x7f0d004c
-			public const int colorPrimary = 2131558476;
+			// aapt resource value: 0x7f0d0050
+			public const int colorPrimary = 2131558480;
 			
-			// aapt resource value: 0x7f0d004d
-			public const int colorPrimaryDark = 2131558477;
+			// aapt resource value: 0x7f0d0051
+			public const int colorPrimaryDark = 2131558481;
 			
 			// aapt resource value: 0x7f0d0040
 			public const int design_bottom_navigation_shadow_color = 2131558464;
 			
-			// aapt resource value: 0x7f0d0063
-			public const int design_error = 2131558499;
+			// aapt resource value: 0x7f0d0067
+			public const int design_error = 2131558503;
 			
 			// aapt resource value: 0x7f0d0041
 			public const int design_fab_shadow_end_color = 2131558465;
@@ -3431,8 +5553,8 @@ namespace FreshAir.Droid
 			// aapt resource value: 0x7f0d0048
 			public const int design_snackbar_background_color = 2131558472;
 			
-			// aapt resource value: 0x7f0d0064
-			public const int design_tint_password_toggle = 2131558500;
+			// aapt resource value: 0x7f0d0068
+			public const int design_tint_password_toggle = 2131558504;
 			
 			// aapt resource value: 0x7f0d0016
 			public const int dim_foreground_disabled_material_dark = 2131558422;
@@ -3455,14 +5577,20 @@ namespace FreshAir.Droid
 			// aapt resource value: 0x7f0d001c
 			public const int foreground_material_light = 2131558428;
 			
+			// aapt resource value: 0x7f0d004d
+			public const int highlight = 2131558477;
+			
 			// aapt resource value: 0x7f0d001d
 			public const int highlighted_text_material_dark = 2131558429;
 			
 			// aapt resource value: 0x7f0d001e
 			public const int highlighted_text_material_light = 2131558430;
 			
-			// aapt resource value: 0x7f0d004b
-			public const int launcher_background = 2131558475;
+			// aapt resource value: 0x7f0d004f
+			public const int launcher_background = 2131558479;
+			
+			// aapt resource value: 0x7f0d004c
+			public const int light = 2131558476;
 			
 			// aapt resource value: 0x7f0d001f
 			public const int material_blue_grey_800 = 2131558431;
@@ -3499,6 +5627,9 @@ namespace FreshAir.Droid
 			
 			// aapt resource value: 0x7f0d002a
 			public const int material_grey_900 = 2131558442;
+			
+			// aapt resource value: 0x7f0d004b
+			public const int normal = 2131558475;
 			
 			// aapt resource value: 0x7f0d0049
 			public const int notification_action_color_filter = 2131558473;
@@ -3551,17 +5682,23 @@ namespace FreshAir.Droid
 			// aapt resource value: 0x7f0d0038
 			public const int secondary_text_disabled_material_light = 2131558456;
 			
+			// aapt resource value: 0x7f0d0069
+			public const int segmented_control_text = 2131558505;
+			
+			// aapt resource value: 0x7f0d004e
+			public const int selected = 2131558478;
+			
 			// aapt resource value: 0x7f0d0039
 			public const int switch_thumb_disabled_material_dark = 2131558457;
 			
 			// aapt resource value: 0x7f0d003a
 			public const int switch_thumb_disabled_material_light = 2131558458;
 			
-			// aapt resource value: 0x7f0d0065
-			public const int switch_thumb_material_dark = 2131558501;
+			// aapt resource value: 0x7f0d006a
+			public const int switch_thumb_material_dark = 2131558506;
 			
-			// aapt resource value: 0x7f0d0066
-			public const int switch_thumb_material_light = 2131558502;
+			// aapt resource value: 0x7f0d006b
+			public const int switch_thumb_material_light = 2131558507;
 			
 			// aapt resource value: 0x7f0d003b
 			public const int switch_thumb_normal_material_dark = 2131558459;
@@ -4056,6 +6193,12 @@ namespace FreshAir.Droid
 			// aapt resource value: 0x7f0800a3
 			public const int notification_top_pad_large_text = 2131230883;
 			
+			// aapt resource value: 0x7f0800a4
+			public const int segmented_control_default_height = 2131230884;
+			
+			// aapt resource value: 0x7f0800a5
+			public const int segmented_control_text_size = 2131230885;
+			
 			// aapt resource value: 0x7f080062
 			public const int tooltip_corner_radius = 2131230818;
 			
@@ -4345,26 +6488,26 @@ namespace FreshAir.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02012f
-			public const int avd_hide_password_1 = 2130837807;
+			// aapt resource value: 0x7f020132
+			public const int avd_hide_password_1 = 2130837810;
 			
-			// aapt resource value: 0x7f020130
-			public const int avd_hide_password_2 = 2130837808;
+			// aapt resource value: 0x7f020133
+			public const int avd_hide_password_2 = 2130837811;
 			
-			// aapt resource value: 0x7f020131
-			public const int avd_hide_password_3 = 2130837809;
+			// aapt resource value: 0x7f020134
+			public const int avd_hide_password_3 = 2130837812;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020132
-			public const int avd_show_password_1 = 2130837810;
+			// aapt resource value: 0x7f020135
+			public const int avd_show_password_1 = 2130837813;
 			
-			// aapt resource value: 0x7f020133
-			public const int avd_show_password_2 = 2130837811;
+			// aapt resource value: 0x7f020136
+			public const int avd_show_password_2 = 2130837814;
 			
-			// aapt resource value: 0x7f020134
-			public const int avd_show_password_3 = 2130837812;
+			// aapt resource value: 0x7f020137
+			public const int avd_show_password_3 = 2130837815;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -5002,11 +7145,11 @@ namespace FreshAir.Droid
 			// aapt resource value: 0x7f020128
 			public const int notification_icon_background = 2130837800;
 			
-			// aapt resource value: 0x7f02012d
-			public const int notification_template_icon_bg = 2130837805;
+			// aapt resource value: 0x7f020130
+			public const int notification_template_icon_bg = 2130837808;
 			
-			// aapt resource value: 0x7f02012e
-			public const int notification_template_icon_low_bg = 2130837806;
+			// aapt resource value: 0x7f020131
+			public const int notification_template_icon_low_bg = 2130837809;
 			
 			// aapt resource value: 0x7f020129
 			public const int notification_tile_bg = 2130837801;
@@ -5015,10 +7158,19 @@ namespace FreshAir.Droid
 			public const int notify_panel_notification_icon_bg = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int tooltip_frame_dark = 2130837803;
+			public const int segmented_control_background = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int tooltip_frame_light = 2130837804;
+			public const int segmented_control_first_background = 2130837804;
+			
+			// aapt resource value: 0x7f02012d
+			public const int segmented_control_last_background = 2130837805;
+			
+			// aapt resource value: 0x7f02012e
+			public const int tooltip_frame_dark = 2130837806;
+			
+			// aapt resource value: 0x7f02012f
+			public const int tooltip_frame_light = 2130837807;
 			
 			static Drawable()
 			{
@@ -5952,28 +8104,31 @@ namespace FreshAir.Droid
 			public const int RootLayout = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int select_dialog_item_material = 2130968640;
+			public const int SegmentedControl = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int select_dialog_multichoice_material = 2130968641;
+			public const int select_dialog_item_material = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int select_dialog_singlechoice_material = 2130968642;
+			public const int select_dialog_multichoice_material = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int ShellContent = 2130968643;
+			public const int select_dialog_singlechoice_material = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int support_simple_spinner_dropdown_item = 2130968644;
+			public const int ShellContent = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int Tabbar = 2130968645;
+			public const int support_simple_spinner_dropdown_item = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int Toolbar = 2130968646;
+			public const int Tabbar = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int tooltip = 2130968647;
+			public const int Toolbar = 2130968647;
+			
+			// aapt resource value: 0x7f040048
+			public const int tooltip = 2130968648;
 			
 			static Layout()
 			{
@@ -6009,6 +8164,12 @@ namespace FreshAir.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f0a003d
+			public const int ApplicationName = 2131361853;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int Hello = 2131361852;
 			
 			// aapt resource value: 0x7f0a0015
 			public const int abc_action_bar_home_description = 2131361813;
@@ -6221,8 +8382,8 @@ namespace FreshAir.Droid
 			// aapt resource value: 0x7f0c016e
 			public const int Animation_Design_BottomSheetDialog = 2131493230;
 			
-			// aapt resource value: 0x7f0c0191
-			public const int AppCompatDialogStyle = 2131493265;
+			// aapt resource value: 0x7f0c0192
+			public const int AppCompatDialogStyle = 2131493266;
 			
 			// aapt resource value: 0x7f0c00a9
 			public const int Base_AlertDialog_AppCompat = 2131493033;
@@ -6725,11 +8886,11 @@ namespace FreshAir.Droid
 			// aapt resource value: 0x7f0c000e
 			public const int CardView_Light = 2131492878;
 			
-			// aapt resource value: 0x7f0c018f
-			public const int MainTheme = 2131493263;
-			
 			// aapt resource value: 0x7f0c0190
-			public const int MainTheme_Base = 2131493264;
+			public const int MainTheme = 2131493264;
+			
+			// aapt resource value: 0x7f0c0191
+			public const int MainTheme_Base = 2131493265;
 			
 			// aapt resource value: 0x7f0c002d
 			public const int Platform_AppCompat = 2131492909;
@@ -6814,6 +8975,9 @@ namespace FreshAir.Droid
 			
 			// aapt resource value: 0x7f0c0047
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131492935;
+			
+			// aapt resource value: 0x7f0c018f
+			public const int SegmentedControlOption = 2131493263;
 			
 			// aapt resource value: 0x7f0c00d6
 			public const int TextAppearance_AppCompat = 2131493078;
@@ -9075,6 +11239,24 @@ namespace FreshAir.Droid
 			
 			// aapt resource value: 12
 			public const int SearchView_voiceIcon = 12;
+			
+			public static int[] SegmentedControlOption = new int[] {
+					2130772339,
+					2130772340,
+					2130772341,
+					2130772342};
+			
+			// aapt resource value: 1
+			public const int SegmentedControlOption_lineColor = 1;
+			
+			// aapt resource value: 3
+			public const int SegmentedControlOption_lineHeightSelected = 3;
+			
+			// aapt resource value: 2
+			public const int SegmentedControlOption_lineHeightUnselected = 2;
+			
+			// aapt resource value: 0
+			public const int SegmentedControlOption_segmentedControlOptionStyle = 0;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
