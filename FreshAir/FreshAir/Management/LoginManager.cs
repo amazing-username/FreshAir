@@ -37,6 +37,19 @@ namespace FreshAir.Management
 
             Result = JsonConvert.DeserializeObject<LoginResult>(Response.Content);
         }
+        public void Logout(Token token)
+        {
+            Client = new RestClient(UrlBase);
+            Request = new RestRequest("api/logout/", Method.POST);
+            var userJson = JsonConvert.SerializeObject(UserAccount);
+            Request.AddHeader("Authorization", $"token {token.AccessToken}");
+            Request.AddParameter("application/json; charset=utf-8", userJson, ParameterType.RequestBody);
+            Request.RequestFormat = DataFormat.Json;
+
+            Response = Client.Execute(Request);
+
+            ResultLogout = JsonConvert.DeserializeObject<LogoutResult>(Response.Content);
+        }
         public void SaveCredentials()
         {
             var user = new UserDBModel
@@ -48,6 +61,15 @@ namespace FreshAir.Management
             };
             DatabaseManagement freshAirDatabase = new DatabaseManagement();
             freshAirDatabase.SaveCredentials(user);
+        }
+        public void SaveToken()
+        {
+            var token = new Token
+            {
+                AccessToken = Result.AccessToken
+            };
+            DatabaseManagement freshAirDatabase = new DatabaseManagement();
+            freshAirDatabase.SaveToken(token);
         }
         public bool LoginSuccessful()
         {
@@ -61,6 +83,7 @@ namespace FreshAir.Management
 
         public User UserAccount { set; get; }
         public LoginResult Result { set; get; }
+        public LogoutResult ResultLogout { set; get; }
 
         public class User : BaseUser
         {

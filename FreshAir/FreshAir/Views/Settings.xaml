@@ -7,6 +7,12 @@
             <Label Text=""
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="Logout" 
+                Text="Logout"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="End"
+                MinimumWidthRequest="50"
+                Clicked="Logout_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

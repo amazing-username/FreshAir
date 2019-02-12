@@ -29,10 +29,22 @@ namespace FreshAir.Management
 
             DB.Insert(user);
         }
+        public void SaveToken(Token token)
+        {
+            if (!TableExists("Token"))
+                DB.CreateTable<Token>();
+            DB.DeleteAll<Token>();
+
+            DB.Insert(token);
+        }
         
         public User RetrieveCredentials()
         {
             return DB.Table<User>().FirstOrDefault();
+        }
+        public Token RetrieveToken()
+        {
+            return DB.Table<Token>().FirstOrDefault();
         }
 
         public bool TableExists(string tablename)
@@ -40,7 +52,8 @@ namespace FreshAir.Management
             var result = 0;
             try
             {
-                result = DB.Table<User>().Count();
+                //result = DB.Table<(T).GetType()>().Count();
+                result = DB.ExecuteScalar<int>($"select * from {tablename};");
             }
             catch (SQLiteException se)
             {
@@ -72,7 +85,7 @@ namespace FreshAir.Management
         [Table("User")]
         public class User : BaseUser
         {
-            [PrimaryKey, AutoIncrement, Column("Id")]
+            [PrimaryKey, Column("Id")]
             public int Id { set; get; }
             public string Password { set; get; }
             public bool SaveCredentials { set; get; }
