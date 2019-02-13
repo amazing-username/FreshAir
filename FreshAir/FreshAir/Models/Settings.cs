@@ -8,6 +8,7 @@ using SQLite;
 namespace FreshAir.Models
 {
     [DataContract]
+    [Table("Settings")]
     public class Settings
     {
         public bool DarkTheme { set; get; }

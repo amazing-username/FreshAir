@@ -49,6 +49,7 @@ namespace FreshAir.Views
             Login.IsEnabled = true;
             if (lm.LoginSuccessful())
             {
+                lm.SaveSettings();
                 lm.SaveToken();
                 if (WillSaveCredentials.Checked)
                     lm.SaveCredentials();

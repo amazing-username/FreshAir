@@ -71,6 +71,16 @@ namespace FreshAir.Management
             DatabaseManagement freshAirDatabase = new DatabaseManagement();
             freshAirDatabase.SaveToken(token);
         }
+        public void SaveSettings()
+        {
+            var setting = new Settings
+            {
+                DarkTheme = false
+            };
+            DatabaseManagement freshAirDatabase = new DatabaseManagement();
+            freshAirDatabase.SaveSettings(setting);
+        }
+
         public bool LoginSuccessful()
         {
             if (Result.Errors == null || Result.Errors.Count < 0)

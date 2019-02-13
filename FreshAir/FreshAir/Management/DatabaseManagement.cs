@@ -37,6 +37,14 @@ namespace FreshAir.Management
 
             DB.Insert(token);
         }
+        public void SaveSettings(Settings settings)
+        {
+            if (!TableExists("Settings"))
+            {
+                DB.CreateTable<Settings>();
+                DB.Insert(settings);
+            }
+        }
         
         public User RetrieveCredentials()
         {
@@ -46,13 +54,16 @@ namespace FreshAir.Management
         {
             return DB.Table<Token>().FirstOrDefault();
         }
+        public Settings RetrieveSettings()
+        {
+            return DB.Table<Settings>().FirstOrDefault();
+        }
 
         public bool TableExists(string tablename)
         {
             var result = 0;
             try
             {
-                //result = DB.Table<(T).GetType()>().Count();
                 result = DB.ExecuteScalar<int>($"select * from {tablename};");
             }
             catch (SQLiteException se)
