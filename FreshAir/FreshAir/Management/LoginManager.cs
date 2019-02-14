@@ -88,6 +88,8 @@ namespace FreshAir.Management
                 return true;
             }
 
+            InitializeSettings();
+
             return false;
         }
 
@@ -99,6 +101,16 @@ namespace FreshAir.Management
         {
             [JsonProperty("password")] 
             public string Password { set; get; }
+        }
+
+        private void InitializeSettings()
+        {
+            DatabaseManagement db = new DatabaseManagement();
+            db.SaveSettings(new Settings
+            {
+                Id = Result.Id,
+                DarkTheme = false
+            });
         }
     }
 }

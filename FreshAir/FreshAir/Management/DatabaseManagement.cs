@@ -17,6 +17,10 @@ namespace FreshAir.Management
             Initialize();
         }
 
+        public void CloseDB()
+        {
+            DB.Close();
+        }
         public void DeleteTable<T>(T tablename)
         {
             DB.DropTable<T>();
@@ -39,11 +43,21 @@ namespace FreshAir.Management
         }
         public void SaveSettings(Settings settings)
         {
-            if (!TableExists("Settings"))
+            try
             {
-                DB.CreateTable<Settings>();
-                DB.Insert(settings);
+                if (!TableExists("Settings"))
+                {
+                    DB.CreateTable<Settings>();
+                    DB.Insert(settings);
+                    return;
+                }
+                DB.Update(settings);
             }
+            catch (Exception ex)
+            {
+                var s = ex.Message;
+            }
+            return;
         }
         
         public User RetrieveCredentials()
@@ -64,7 +78,7 @@ namespace FreshAir.Management
             var result = 0;
             try
             {
-                result = DB.ExecuteScalar<int>($"select * from {tablename};");
+                result = DB.GetTableInfo(tablename).Count;
             }
             catch (SQLiteException se)
             {

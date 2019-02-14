@@ -29,12 +29,14 @@ namespace FreshAir.Views
             DatabaseManagement db = new DatabaseManagement();
             if (!db.TableExists("User"))
             {
+                db.CloseDB();
                 return;
             }
 
             var usr = db.RetrieveCredentials();
             UserName.Text = usr.Username;
             Password.Text = usr.Password;
+            db.CloseDB();
             WillSaveCredentials.Checked = usr.SaveCredentials;
         }
 
@@ -49,10 +51,24 @@ namespace FreshAir.Views
             Login.IsEnabled = true;
             if (lm.LoginSuccessful())
             {
-                lm.SaveSettings();
-                lm.SaveToken();
+                DatabaseManagement settingsData = new DatabaseManagement();
+                var res = settingsData.RetrieveSettings();
+
+                settingsData.SaveToken(new Models.Token
+                {
+                    AccessToken = lm.Result.AccessToken
+                });
                 if (WillSaveCredentials.Checked)
-                    lm.SaveCredentials();
+                {
+                    settingsData.SaveCredentials(new UserDBModel
+                    {
+                        Id = lm.Result.Id,
+                        Username = lm.UserAccount.Username,
+                        Password = lm.UserAccount.Password,
+                        SaveCredentials = true
+                    });
+                }
+                settingsData.CloseDB();
                 App.Current.MainPage = new LandingPage();
             }
         }

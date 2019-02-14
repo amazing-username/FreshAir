@@ -4,7 +4,44 @@
              x:Class="FreshAir.Views.Settings">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text=""
+            <ListView x:Name="ItemsListView" 
+                ItemsSource="{Binding Toggables}" 
+                VerticalOptions="FillAndExpand" 
+                HasUnevenRows="true" 
+                IsPullToRefreshEnabled="False" 
+                CachingStrategy="RecycleElement" 
+                ItemSelected="OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout 
+                                MinimumHeightRequest="250"
+                                Orientation="Horizontal">
+                                <Label Text="{Binding Function}"
+                                    MinimumHeightRequest="225"
+                                    MinimumWidthRequest="350"
+                                    VerticalOptions="CenterAndExpand"
+                                    HorizontalOptions="StartAndExpand"
+                                    FontSize="Large"
+                                    >
+                                </Label>
+                                <Switch
+                                    MinimumWidthRequest="250"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="End"
+                                    IsToggled="{Binding Enabled}"
+                                    Toggled="Switch_Toggled"
+                                    IsEnabled="True">
+                                </Switch>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ListView>
+                
+            </ListView>
+                <Label Text=""
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Button x:Name="Logout" 
