@@ -33,12 +33,18 @@ namespace FreshAir.Views
         public bool FirstTime { set; get; }
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
-        {            if (ItemsListView.SelectedItem == null)                return;            ItemsListView.SelectedItem = null;        }
+        {
+            if (ItemsListView.SelectedItem == null)
+                return;
+            ItemsListView.SelectedItem = null;
+        }
 
         private void Logout_Clicked(object sender, EventArgs e)
         {
             Logout.IsEnabled = false;
             DatabaseManagement dbSql = new DatabaseManagement();
+            SettingManager settingMgr = new SettingManager();
+            settingMgr.LoadDefault();
             var token = dbSql.RetrieveToken();
             UserDB usr = dbSql.RetrieveCredentials();
             LoginManager lm = new LoginManager(new UserLogin
@@ -61,14 +67,11 @@ namespace FreshAir.Views
                 FirstTime = false;
                 return;
             }
-            ViewModel.SwitchScheme(val);
-            DatabaseManagement dbsql = new DatabaseManagement();
-            dbsql.SaveSettings(new Models.Settings
+            SettingManager settingMgr = new SettingManager(new Models.Settings
             {
-                Id = dbsql.RetrieveCredentials().Id,
                 DarkTheme = val
             });
-            dbsql.CloseDB();
+            settingMgr.SwitchTheme();
         }
     }
 }

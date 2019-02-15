@@ -53,6 +53,8 @@ namespace FreshAir.Views
             {
                 DatabaseManagement settingsData = new DatabaseManagement();
                 var res = settingsData.RetrieveSettings();
+                SettingManager settingMgr = new SettingManager(res);
+                settingMgr.LoadScheme();
 
                 settingsData.SaveToken(new Models.Token
                 {
@@ -75,7 +77,6 @@ namespace FreshAir.Views
 
         private void ForgotPassword_Clicked(object sender, EventArgs e)
         {
-
         }
 
         private void Register_Clicked(object sender, EventArgs e)
