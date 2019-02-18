@@ -9,7 +9,7 @@
               android:paddingLeft="@dimen/activity_horizontal_margin"
               android:paddingRight="@dimen/activity_horizontal_margin"
               android:paddingTop="@dimen/activity_vertical_margin"
-              tools:context=".LoginActivity">
+              tools:context=".RegisterActivity">
 
     <!-- Login progress -->
     <ProgressBar
@@ -35,6 +35,33 @@
                 <android.support.design.widget.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:hint="@string/textinputlayout_firstname" android:id="@+id/firstname"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/textinputlayout_lastname" android:id="@+id/lastname"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/textinputlayout_email" android:id="@+id/email"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:hint="@string/textinputlayout_username" android:id="@+id/username"/>
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
@@ -46,23 +73,19 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/textinputlayout_password" android:id="@+id/password"/>
             </android.support.design.widget.TextInputLayout>
-            <CheckBox
-                    android:text="@string/checkbox_rememberMe"
+            <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/checkBox"/>
+                    android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/textinputlayout_passwordconfirm" android:id="@+id/passwordconfirm"/>
+            </android.support.design.widget.TextInputLayout>
             <Button
-                    android:text="@string/button_Log_in"
+                    android:text="@string/button_register_user"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/login" android:textAllCaps="false"/>
-            <Button
-                    android:text="@string/button_forgot_password"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/forgotPassword" android:textAllCaps="false"
-                    android:enabled="false"/>
-            <Button
-                    android:text="@string/button_register"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/register" android:textAllCaps="false"/>
+                    android:layout_height="wrap_content" android:id="@+id/registerAccount"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

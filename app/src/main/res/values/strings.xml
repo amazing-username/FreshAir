@@ -1,12 +1,26 @@
 <resources>
     <string name="app_name">FreshAir</string>
     <!-- Strings related to login -->
-    <string name="button_Log_in">Login</string>
     <string name="button_forgot_password">Forgot Password</string>
+    <string name="button_Log_in">Login</string>
     <string name="button_register">Register</string>
-    <string name="textinputlayout_username">Username</string>
     <string name="checkbox_rememberMe">Remember Me</string>
     <string name="textinputlayout_password">Password</string>
+    <string name="textinputlayout_username">Username</string>
     <string name="error_textlayoutinput_password">Error Wrong credentials</string>
-    <!-- Strings related to blah -->
+    <!-- Strings related to register -->
+    <string name="title_activity_register">Register</string>
+    <string name="button_register_user">Register User</string>
+    <string name="textinputlayout_firstname">Firstname</string>
+    <string name="textinputlayout_lastname">Lastname</string>
+    <string name="textinputlayout_email">Email</string>
+    <string name="textinputlayout_passwordconfirm">Password Confirm</string>
+    <!-- Strings related to main activity -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FreshAir</string>
+    <string name="nav_header_subtitle">amazing-username</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 </resources>

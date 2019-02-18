@@ -23,37 +23,50 @@ import android.widget.TextView
 
 import java.util.ArrayList
 import android.Manifest.permission.READ_CONTACTS
-import android.content.Intent
 
-import kotlinx.android.synthetic.main.activity_login.*
+import kotlinx.android.synthetic.main.activity_register.*
 
 /**
  * A login screen that offers login via email/password.
  */
-class LoginActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
-    /**:179@author
+class RegisterActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
+    /**
      * Keep track of the login task to ensure we can cancel it if requested.
      */
     private var mAuthTask: UserLoginTask? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_register)
+        setupActionBar()
         // Set up the login form.
         password.setOnEditorActionListener(TextView.OnEditorActionListener { _, id, _ ->
             if (id == EditorInfo.IME_ACTION_DONE || id == EditorInfo.IME_NULL) {
-                //functionName()()
+                //functionName()
                 return@OnEditorActionListener true
             }
             false
         })
 
-        login.setOnClickListener() { loginUser() }
-        register.setOnClickListener { registerUser() }
+        registerAccount.setOnClickListener() { registerUser() }
     }
 
 
+    fun registerUser() {
 
+    }
+
+
+    /**
+     * Set up the {@link android.app.ActionBar}, if the API is available.
+     */
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    private fun setupActionBar() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+            // Show the Up button in the action bar.
+            supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        }
+    }
 
     /**
      * Attempts to sign in or register the account specified by the login form.
@@ -61,16 +74,15 @@ class LoginActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
      * errors are presented and no actual login attempt is made.
      */
 
-    fun loginUser() {
-        val intent = Intent(this, MainActivity::class.java)
 
-        startActivity(intent)
+    private fun isEmailValid(email: String): Boolean {
+        //TODO: Replace this with your own logic
+        return email.contains("@")
     }
 
-    fun registerUser() {
-        val intent = Intent(this, RegisterActivity::class.java)
-
-        startActivity(intent)
+    private fun isPasswordValid(password: String): Boolean {
+        //TODO: Replace this with your own logic
+        return password.length > 4
     }
 
     /**
@@ -139,7 +151,6 @@ class LoginActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
             emails.add(cursor.getString(ProfileQuery.ADDRESS))
             cursor.moveToNext()
         }
-
     }
 
     override fun onLoaderReset(cursorLoader: Loader<Cursor>) {
@@ -190,7 +201,7 @@ class LoginActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
             if (success!!) {
                 finish()
             } else {
-                password.error = getString(R.string.error_textlayoutinput_password)
+                //password.error = getString(R.string.error)
                 password.requestFocus()
             }
         }
