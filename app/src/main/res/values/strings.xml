@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FreshAir</string>
+    <!-- Strings related to login -->
+    <string name="button_Log_in">Login</string>
+    <string name="button_forgot_password">Forgot Password</string>
+    <string name="button_register">Register</string>
+    <string name="textinputlayout_username">Username</string>
+    <string name="checkbox_rememberMe">Remember Me</string>
+    <string name="textinputlayout_password">Password</string>
+    <string name="error_textlayoutinput_password">Error Wrong credentials</string>
+    <!-- Strings related to blah -->
+</resources>
