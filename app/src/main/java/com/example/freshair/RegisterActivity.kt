@@ -3,8 +3,6 @@ package com.example.freshair
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
 import android.annotation.TargetApi
-import android.content.pm.PackageManager
-import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 import android.app.LoaderManager.LoaderCallbacks
 import android.content.CursorLoader
@@ -15,16 +13,16 @@ import android.os.AsyncTask
 import android.os.Build
 import android.os.Bundle
 import android.provider.ContactsContract
-import android.text.TextUtils
 import android.view.View
 import android.view.inputmethod.EditorInfo
-import android.widget.ArrayAdapter
 import android.widget.TextView
 
 import java.util.ArrayList
-import android.Manifest.permission.READ_CONTACTS
 
 import kotlinx.android.synthetic.main.activity_register.*
+
+import com.example.freshair.management.RegisterManager
+import com.example.freshair.models.User
 
 /**
  * A login screen that offers login via email/password.
@@ -40,6 +38,7 @@ class RegisterActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
         setContentView(R.layout.activity_register)
         setupActionBar()
         // Set up the login form.
+        dummyData()
         password.setOnEditorActionListener(TextView.OnEditorActionListener { _, id, _ ->
             if (id == EditorInfo.IME_ACTION_DONE || id == EditorInfo.IME_NULL) {
                 //functionName()
@@ -53,6 +52,10 @@ class RegisterActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
 
 
     fun registerUser() {
+        val usr = parseUser()
+
+        var regMgr = RegisterManager(usr)
+        regMgr.registerUser()
 
     }
 
@@ -73,7 +76,17 @@ class RegisterActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
      * If there are form errors (invalid email, missing fields, etc.), the
      * errors are presented and no actual login attempt is made.
      */
+    private fun parseUser(): User {
+        val fsName = firstname.text.toString()
+        val lsName = lastname.text.toString()
+        val eMail = email.text.toString()
+        val userName = username.text.toString()
+        val passWord = password.text.toString()
 
+        val usr = User(fsName, lsName, eMail, userName, passWord)
+
+        return usr
+    }
 
     private fun isEmailValid(email: String): Boolean {
         //TODO: Replace this with your own logic
@@ -83,6 +96,15 @@ class RegisterActivity : AppCompatActivity(), LoaderCallbacks<Cursor> {
     private fun isPasswordValid(password: String): Boolean {
         //TODO: Replace this with your own logic
         return password.length > 4
+    }
+    private fun isPasswordMatching(password: String, passwordConfirm: String): Boolean {
+        return password.equals(passwordConfirm)
+    }
+
+    private fun dummyData() {
+        email.setText("dsfsdf@asdasd.com")
+        password.setText("fun")
+        passwordconfirm.setText("fun")
     }
 
     /**
