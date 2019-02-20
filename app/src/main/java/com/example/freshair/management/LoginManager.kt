@@ -5,23 +5,42 @@ import java.lang.Exception
 import org.jetbrains.anko.*
 import org.json.JSONObject
 import khttp.responses.Response
+import kotlinx.android.synthetic.main.activity_login.view.*
 
-import com.example.freshair.models.User
+import com.example.freshair.models.User as UserAuth
 
 class LoginManager {
-    constructor(user: User) {
+    constructor(user: UserAuth) {
         this.user = user
     }
 
 
 
     fun login() {
+
         doAsync {
-            sendLoginRequest()
+            loginSuccessful =  sendLoginRequest()
+        }.get()
+
+        if (!loginSuccessful) {
+            return
         }
+        userSuccessful = parseLoginResults()
     }
 
-    private fun sendLoginRequest() {
+
+    private fun parseLoginResults(): User  {
+        val accessToken = obj.get("token").toString()
+        val username = obj.get("username").toString()
+        val id = obj.get("id").toString().toInt()
+        val firstLogin = obj.get("first_login").toString().toBoolean()
+
+        val user = User(id, accessToken, username, user!!.password, firstLogin)
+
+        return user
+    }
+
+    private fun sendLoginRequest(): Boolean {
         var url = this.url.plus("login/")
         try {
             var response =
@@ -31,19 +50,26 @@ class LoginManager {
                         "username" to user?.username, "password" to user?.password
                     )
                 )
-            val obj: JSONObject = response.jsonObject
+            obj = response.jsonObject
 
         }
         catch (s: Exception) {
-            print(s.stackTrace)
-            print("\n\n${s.message}")
+            return false
         }
         finally {
-            print("sd")
+            return true
         }
+        return true
     }
 
 
-    val user: User?
+    val user: UserAuth?
     val url = "http://50.88.81.55:8024/api/"
+    var obj = JSONObject()
+    var userSuccessful: User? = null
+    var loginSuccessful = false
+
+    class User(var id: Int, var accessToken: String, var username: String, var password: String,
+               var isFirstLogin: Boolean) {
+    }
 }
