@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreshAir.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="NavigationPrimary">#159f64</Color>
+            <Color x:Key="ContentBackground">#f4f4f4</Color>
+            <Color x:Key="Button">#098751</Color>
+            <Color x:Key="ButtonText">#ffffff</Color>
+            <Color x:Key="TextColor">#000000</Color>
+            <Color x:Key="Rando">#ffffff</Color>
+            <Color x:Key="LabelFrontground">#ffffff</Color>
+            <Color x:Key="PickerBackgroundColoe">#787878</Color>
+            <Color x:Key="SwitchOn">#21a90d</Color>
+            <Color x:Key="PickerTextColor">#999999</Color>
+            <Color x:Key="SliderLineColor">#000000</Color>
+            <Color x:Key="SliderBackgroundColor"></Color>
+            <Color x:Key="SliderThumbColor">#f3f3f3</Color>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{DynamicResource NavigationPrimary}" />
+                <Setter Property="BarTextColor" Value="{DynamicResource Rando}" />
+            </Style>
+            <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="{DynamicResource ContentBackground}" />
+            </Style>
+            <Style TargetType="Button" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="{DynamicResource Button}" />
+                <Setter Property="TextColor" Value="{DynamicResource ButtonText}" />
+            </Style>
+            <Style TargetType="Span" ApplyToDerivedTypes="True">
+                <Setter Property="ForegroundColor" Value="{DynamicResource LabelFrontground}"/>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource TextColor}" />
+            </Style>
+            <Style TargetType="Switch">
+                <Setter Property="BackgroundColor" Value="{DynamicResource ContentBackground}" />
+                <Setter Property="OnColor" Value="{DynamicResource SwitchOn}" />
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="PlaceholderColor" Value="{DynamicResource TextColor}" />
+                <Setter Property="TextColor" Value="{DynamicResource TextColor}" />
+            </Style>
+            <Style TargetType="Slider">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="ThumbColor" Value="{DynamicResource SliderThumbColor}" />
+                <Setter Property="MinimumTrackColor" Value="{DynamicResource SliderLineColor}" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

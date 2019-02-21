@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:m16="clr-namespace:Messier16.Forms.Controls;assembly=Messier16.Forms.Controls.Checkbox"
+             xmlns:local="clr-namespace:FreshAir.Views"
+             xmlns:m161="clr-namespace:Messier16.Forms.Controls;assembly=Messier16.Forms.Controls"
+             x:Class="FreshAir.Views.LoginPage">
+
+    <StackLayout>
+        <Label Text="FreshAir" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Entry x:Name="UserName"
+            Placeholder="Username"
+            Keyboard="Plain" />
+        <Entry x:Name="Password"
+            Placeholder="Password"
+            IsPassword="True" />
+        <m161:Checkbox x:Name="WillSaveCredentials" 
+            WidthRequest="45" 
+            Checked="False" 
+            IsEnabled="True">
+        </m161:Checkbox>
+        <Label Text="Save Password?"
+               FontSize="Small"/>
+        <Button x:Name="Login"
+            Text="Login"
+            Clicked="Login_Clicked" />
+        <Button x:Name="ForgotPassword"
+            Text="Forgot Password" 
+            Clicked="ForgotPassword_Clicked"
+            IsEnabled="False" />
+        <Button x:Name="Register"
+            Text="Register"
+            Clicked="Register_Clicked" />
+    </StackLayout>
+</ContentPage>
