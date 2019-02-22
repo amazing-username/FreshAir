@@ -70,6 +70,15 @@ namespace FreshAir.Management
         }
         public Settings RetrieveSettings()
         {
+            if (!TableExists("Settings"))
+            {
+                DB.CreateTable<Settings>();
+                DB.Insert(new Settings
+                {
+                    DarkTheme = false
+                });
+            }
+
             return DB.Table<Settings>().FirstOrDefault();
         }
 

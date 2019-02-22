@@ -38,8 +38,30 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <ListView>
-                
+            <ListView x:Name="SettingsAccountView"
+                      ItemsSource="{Binding AccountActions}"
+                      VerticalOptions="FillAndExpand"
+                      HasUnevenRows="true"
+                      IsPullToRefreshEnabled="False"
+                      ItemSelected="SettingsAccountView_ItemSelected"
+                 >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout
+                                MinimumHeightRequest="250">
+                                <Label x:Name="ChangePassword"
+                                Text="{Binding SettingText}"
+                                MinimumHeightRequest="225"
+                                MinimumWidthRequest="350"
+                                VerticalOptions="CenterAndExpand"
+                                HorizontalOptions="StartAndExpand"
+                                FontSize="Medium">
+                                </Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
             </ListView>
                 <Label Text=""
                 VerticalOptions="CenterAndExpand" 

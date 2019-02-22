@@ -17,15 +17,17 @@ namespace FreshAir.ViewModels
     {
         public SettingsViewModel()
         {
-            Toggables = new ObservableCollection<Toggables>();
+            Toggables = new ObservableCollection<Toggable>();
+            AccountActions = new ObservableCollection<AccountAction>();
 
             PopulateToggables();
+            PopulateAccountSettings();
         }
 
         public void PopulateToggables()
         {
             Toggables.Clear();
-            var colorScheme = new Toggables();
+            var colorScheme = new Toggable();
             DatabaseManagement fa = new DatabaseManagement();
 
             colorScheme.Enabled = fa.RetrieveSettings().DarkTheme;
@@ -33,6 +35,17 @@ namespace FreshAir.ViewModels
 
             Toggables.Add(colorScheme);
             fa.CloseDB();
+        }
+        public void PopulateAccountSettings()
+        {
+            AccountActions.Clear();
+            var changePassword = new AccountAction
+            {
+                AccountSetting = "ChangePassword",
+                SettingText = "Change your password"
+            };
+
+            AccountActions.Add(changePassword);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -44,6 +57,7 @@ namespace FreshAir.ViewModels
             PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public ObservableCollection<Toggables> Toggables { set; get; }
+        public ObservableCollection<Toggable> Toggables { set; get; }
+        public ObservableCollection<AccountAction> AccountActions { set; get; }
     }
 }

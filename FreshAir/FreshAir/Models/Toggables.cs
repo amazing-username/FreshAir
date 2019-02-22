@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FreshAir.Models
 {
-    public class Toggables
+    public class Toggable
     {
         public int Id { set; get; }
         public string Function { set; get; }

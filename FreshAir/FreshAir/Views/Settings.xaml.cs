@@ -32,12 +32,6 @@ namespace FreshAir.Views
 
         public bool FirstTime { set; get; }
 
-        async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
-        {
-            if (ItemsListView.SelectedItem == null)
-                return;
-            ItemsListView.SelectedItem = null;
-        }
 
         private void Logout_Clicked(object sender, EventArgs e)
         {
@@ -72,6 +66,26 @@ namespace FreshAir.Views
                 DarkTheme = val
             });
             settingMgr.SwitchTheme();
+        }
+
+        async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
+        {
+            if (ItemsListView.SelectedItem == null)
+                return;
+            ItemsListView.SelectedItem = null;
+        }
+        private void SettingsAccountView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (SettingsAccountView.SelectedItem == null)
+                return;
+            var accountSetting = (AccountAction)SettingsAccountView.SelectedItem;
+
+            if (accountSetting.AccountSetting.Equals("ChangePassword"))
+            {
+                Navigation.PushModalAsync(new ChangePasswordPage());
+            }
+
+            SettingsAccountView.SelectedItem = null;
         }
     }
 }
