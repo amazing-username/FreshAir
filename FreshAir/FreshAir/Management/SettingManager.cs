@@ -81,7 +81,7 @@ namespace FreshAir.Management
         public void ConfigureSettings()
         {
             DatabaseManagement db = new DatabaseManagement();
-            UserSettings.Id = db.RetrieveCredentials().Id;
+            UserSettings.Id = db.RetrieveUser().Id;
             db.SaveSettings(UserSettings);
         }
 

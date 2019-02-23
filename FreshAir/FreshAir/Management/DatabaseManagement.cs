@@ -25,7 +25,7 @@ namespace FreshAir.Management
         {
             DB.DropTable<T>();
         }
-        public void SaveCredentials(User user)
+        public void SaveUser(User user)
         {
             if (!TableExists("User"))
                 DB.CreateTable<User>();
@@ -60,7 +60,7 @@ namespace FreshAir.Management
             return;
         }
         
-        public User RetrieveCredentials()
+        public User RetrieveUser()
         {
             return DB.Table<User>().FirstOrDefault();
         }
@@ -121,6 +121,9 @@ namespace FreshAir.Management
         {
             [PrimaryKey, Column("Id")]
             public int Id { set; get; }
+            public string Firstname { set; get; }
+            public string Lastname { set; get; }
+            public string Email { set; get; }
             public string Password { set; get; }
             public bool SaveCredentials { set; get; }
         }

@@ -40,7 +40,7 @@ namespace FreshAir.Views
             SettingManager settingMgr = new SettingManager();
             settingMgr.LoadDefault();
             var token = dbSql.RetrieveToken();
-            UserDB usr = dbSql.RetrieveCredentials();
+            UserDB usr = dbSql.RetrieveUser();
             LoginManager lm = new LoginManager(new UserLogin
             {
                 Username = usr.Username,

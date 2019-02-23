@@ -10,8 +10,14 @@ namespace FreshAir.Models
     {
         [JsonProperty("id")]
         public int Id { set; get; }
+        [JsonProperty("first_name")]
+        public string Firstname { set; get; }
+        [JsonProperty("last_name")]
+        public string Lastname { set; get; }
         [JsonProperty("username")]
         public string Username { set; get; }
+        [JsonProperty("email")]
+        public string Email { set; get; }
         [JsonProperty("token")]
         public string AccessToken { set; get; }
         [JsonProperty("first_login")]

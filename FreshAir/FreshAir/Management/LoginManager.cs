@@ -50,35 +50,19 @@ namespace FreshAir.Management
 
             ResultLogout = JsonConvert.DeserializeObject<LogoutResult>(Response.Content);
         }
-        public void SaveCredentials()
+        public void ChangePassword(UserModel user)
         {
-            var user = new UserDBModel
-            {
-                Id = Result.Id,
-                Username = UserAccount.Username,
-                Password = UserAccount.Password,
-                SaveCredentials = true
-            };
-            DatabaseManagement freshAirDatabase = new DatabaseManagement();
-            freshAirDatabase.SaveCredentials(user);
-        }
-        public void SaveToken()
-        {
-            var token = new Token
-            {
-                AccessToken = Result.AccessToken
-            };
-            DatabaseManagement freshAirDatabase = new DatabaseManagement();
-            freshAirDatabase.SaveToken(token);
-        }
-        public void SaveSettings()
-        {
-            var setting = new Settings
-            {
-                DarkTheme = false
-            };
-            DatabaseManagement freshAirDatabase = new DatabaseManagement();
-            freshAirDatabase.SaveSettings(setting);
+            Client = new RestClient(UrlBase);
+            DatabaseManagement dbMgr = new DatabaseManagement();
+            var userId = dbMgr.RetrieveUser().Id;
+            Request = new RestRequest($"api/user/{userId}/", Method.PUT);
+            var userJson = JsonConvert.SerializeObject(user);
+            Request.AddParameter("application/json; charset=utf-8", userJson, ParameterType.RequestBody);
+            Request.RequestFormat = DataFormat.Json;
+
+            Response = Client.Execute(Request);
+
+            var respStr = Response.Content.ToString();
         }
 
         public bool LoginSuccessful()
@@ -93,6 +77,7 @@ namespace FreshAir.Management
             return false;
         }
 
+        public UserModel UserObject { set; get; }
         public User UserAccount { set; get; }
         public LoginResult Result { set; get; }
         public LogoutResult ResultLogout { set; get; }
@@ -101,6 +86,15 @@ namespace FreshAir.Management
         {
             [JsonProperty("password")] 
             public string Password { set; get; }
+        }
+        public class UserModel : User
+        {
+            [JsonProperty("first_name")]
+            public string FirstName { set; get; }
+            [JsonProperty("last_name")]
+            public string Lastname { set; get; }
+            [JsonProperty("email")]
+            public string Email { set; get; }
         }
 
         private void InitializeSettings()

@@ -33,7 +33,7 @@ namespace FreshAir.Views
                 return;
             }
 
-            var usr = db.RetrieveCredentials();
+            var usr = db.RetrieveUser();
             UserName.Text = usr.Username;
             Password.Text = usr.Password;
             db.CloseDB();
@@ -62,12 +62,15 @@ namespace FreshAir.Views
                 });
                 if (WillSaveCredentials.Checked)
                 {
-                    settingsData.SaveCredentials(new UserDBModel
+                    settingsData.SaveUser(new UserDBModel
                     {
                         Id = lm.Result.Id,
-                        Username = lm.UserAccount.Username,
-                        Password = lm.UserAccount.Password,
-                        SaveCredentials = true
+                        Firstname = lm.Result.Firstname,
+                        Lastname = lm.Result.Lastname,
+                        Email = lm.Result.Email,
+                        Username = lm.Result.Username,
+                        Password = Password.Text.ToString(),
+                        SaveCredentials = WillSaveCredentials.Checked
                     });
                 }
                 settingsData.CloseDB();
