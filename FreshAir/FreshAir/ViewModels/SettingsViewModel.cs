@@ -30,7 +30,7 @@ namespace FreshAir.ViewModels
             var colorScheme = new Toggable();
             DatabaseManagement fa = new DatabaseManagement();
 
-            colorScheme.Enabled = fa.RetrieveSettings().DarkTheme;
+            colorScheme.Enabled = fa.RetrieveSettings(fa.RetrieveSettings().Id).DarkTheme;
             colorScheme.Function = "Dark Theme";
 
             Toggables.Add(colorScheme);

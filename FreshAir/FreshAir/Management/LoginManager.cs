@@ -64,6 +64,33 @@ namespace FreshAir.Management
 
             var respStr = Response.Content.ToString();
         }
+        public void DeleteAccount()
+        {
+            DeletionSuccessful = false;
+            Client = new RestClient(UrlBase);
+            DatabaseManagement dbMgr = new DatabaseManagement();
+            var token = dbMgr.RetrieveToken();
+            var user = dbMgr.RetrieveUser();
+            var userId = user.Id;
+            Request = new RestRequest($"api/user/{userId}/", Method.DELETE);
+            var userJson = JsonConvert.SerializeObject(new User
+            {
+                Username = user.Username,
+                Password = user.Password
+            });
+            Request.AddHeader("Authorization", $"token {token.AccessToken}");
+            Request.AddParameter("application/json; charset=utf-8", userJson, ParameterType.RequestBody);
+            Request.RequestFormat = DataFormat.Json;
+
+            Response = Client.Execute(Request);
+
+            var respStr = Response.Content.ToString();
+
+            if (UserSuccessfullyDeleted())
+            {
+                DeletionSuccessful = true;
+            }
+        }
 
         public bool LoginSuccessful()
         {
@@ -81,6 +108,7 @@ namespace FreshAir.Management
         public User UserAccount { set; get; }
         public LoginResult Result { set; get; }
         public LogoutResult ResultLogout { set; get; }
+        public bool DeletionSuccessful { set; get; }
 
         public class User : BaseUser
         {
@@ -105,6 +133,15 @@ namespace FreshAir.Management
                 Id = Result.Id,
                 DarkTheme = false
             });
+        }
+        private bool UserSuccessfullyDeleted()
+        {
+            if (Response.StatusCode != System.Net.HttpStatusCode.NoContent)
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }

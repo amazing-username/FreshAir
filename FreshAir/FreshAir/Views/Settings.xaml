@@ -6,28 +6,22 @@
         <StackLayout>
             <ListView x:Name="ItemsListView" 
                 ItemsSource="{Binding Toggables}" 
-                VerticalOptions="FillAndExpand" 
                 HasUnevenRows="true" 
+                VerticalOptions="Fill"
+                RowHeight="100"
+                HeightRequest="100"
                 IsPullToRefreshEnabled="False" 
                 CachingStrategy="RecycleElement" 
                 ItemSelected="OnItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout 
-                                MinimumHeightRequest="250"
-                                Orientation="Horizontal">
+                            <StackLayout>
                                 <Label Text="{Binding Function}"
-                                    MinimumHeightRequest="225"
-                                    MinimumWidthRequest="350"
-                                    VerticalOptions="CenterAndExpand"
                                     HorizontalOptions="StartAndExpand"
-                                    FontSize="Large"
-                                    >
+                                    FontSize="Large" >
                                 </Label>
                                 <Switch
-                                    MinimumWidthRequest="250"
-                                    VerticalOptions="Center"
                                     HorizontalOptions="End"
                                     IsToggled="{Binding Enabled}"
                                     Toggled="Switch_Toggled"
@@ -40,37 +34,39 @@
             </ListView>
             <ListView x:Name="SettingsAccountView"
                       ItemsSource="{Binding AccountActions}"
-                      VerticalOptions="FillAndExpand"
+                      RowHeight="75"
                       HasUnevenRows="true"
                       IsPullToRefreshEnabled="False"
-                      ItemSelected="SettingsAccountView_ItemSelected"
-                 >
+                      ItemSelected="SettingsAccountView_ItemSelected" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout
-                                MinimumHeightRequest="250">
+                            <StackLayout>
                                 <Label x:Name="ChangePassword"
-                                Text="{Binding SettingText}"
-                                MinimumHeightRequest="225"
-                                MinimumWidthRequest="350"
-                                VerticalOptions="CenterAndExpand"
-                                HorizontalOptions="StartAndExpand"
-                                FontSize="Medium">
+                                    Text="{Binding SettingText}"
+                                    HorizontalOptions="StartAndExpand"
+                                    VerticalOptions="Center"
+                                    FontSize="Medium">
                                 </Label>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-                <Label Text=""
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="DeleteAccount"
+                Text="Delete User"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="End"
+                MinimumWidthRequest="300"
+                WidthRequest="600"
+                BackgroundColor="Red"
+                Clicked="DeleteAccount_Clicked" />
             <Button x:Name="Logout" 
                 Text="Logout"
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="End"
-                MinimumWidthRequest="50"
+                MinimumWidthRequest="300"
+                WidthRequest="600"
                 Clicked="Logout_Clicked" />
         </StackLayout>
     </ContentPage.Content>

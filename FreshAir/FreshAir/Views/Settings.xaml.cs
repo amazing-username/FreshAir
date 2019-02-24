@@ -19,7 +19,8 @@ namespace FreshAir.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Settings : ContentPage
 	{
-		public Settings ()
+        #region Constructors
+        public Settings ()
 		{
 			InitializeComponent ();
 
@@ -27,6 +28,7 @@ namespace FreshAir.Views
 
             BindingContext = ViewModel;
 		}
+        #endregion
 
         public SettingsViewModel ViewModel { set; get; }
 
@@ -50,6 +52,35 @@ namespace FreshAir.Views
             Logout.IsEnabled = true;
             dbSql.CloseDB();
             App.Current.MainPage = new LoginPage();
+        }
+        private async void DeleteAccount_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                var result = await DisplayAlert("Delete  User", "You are about to delete your user account, " +
+                    "are you sure you want to do this?", "Ok", "No");
+
+                if (!result)
+                    return;
+
+                LoginManager deleteAccount = new LoginManager();
+                deleteAccount.DeleteAccount();
+
+                if (!deleteAccount.DeletionSuccessful)
+                    return;
+
+                DatabaseManagement dbMgr = new DatabaseManagement();
+                dbMgr.DeleteRecords<Settings>();
+                dbMgr.DeleteRecords<UserDB>();
+                dbMgr.DeleteRecords<Token>();
+                dbMgr.CloseDB();
+
+                App.Current.MainPage = new LoginPage();
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
 
@@ -87,5 +118,6 @@ namespace FreshAir.Views
 
             SettingsAccountView.SelectedItem = null;
         }
+
     }
 }

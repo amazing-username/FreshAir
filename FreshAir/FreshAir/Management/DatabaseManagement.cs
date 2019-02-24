@@ -25,6 +25,10 @@ namespace FreshAir.Management
         {
             DB.DropTable<T>();
         }
+        public void DeleteRecords<T>()
+        {
+            DB.DeleteAll<T>();
+        }
         public void SaveUser(User user)
         {
             if (!TableExists("User"))
@@ -62,7 +66,8 @@ namespace FreshAir.Management
         
         public User RetrieveUser()
         {
-            return DB.Table<User>().FirstOrDefault();
+            return DB.Table<User>().FirstOrDefault() ?? new User {Username = " " , Password = " ",
+                SaveCredentials = false };
         }
         public Token RetrieveToken()
         {
@@ -79,7 +84,46 @@ namespace FreshAir.Management
                 });
             }
 
-            return DB.Table<Settings>().FirstOrDefault();
+            return DB.Table<Settings>().FirstOrDefault() ?? new Settings
+            {
+                DarkTheme = false
+            };
+        }
+        public Settings RetrieveSettings(int id)
+        {
+            try
+            {
+                if (!TableExists("Settings"))
+                {
+                    DB.CreateTable<Settings>();
+                    DB.Insert(new Settings
+                    {
+                        DarkTheme = false
+                    });
+                }
+
+                return DB.Get<Settings>(id);
+            }
+            catch (Exception e)
+            {
+
+            }
+            finally
+            {
+                var sett = new Settings
+                {
+                    Id = id,
+                    DarkTheme = false
+                };
+
+                SaveSettings(sett);
+            }
+
+            return new Settings
+            {
+                Id = id,
+                DarkTheme = false
+            };
         }
 
         public bool TableExists(string tablename)

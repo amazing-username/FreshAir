@@ -34,10 +34,32 @@ namespace FreshAir.Views
             }
 
             var usr = db.RetrieveUser();
-            UserName.Text = usr.Username;
-            Password.Text = usr.Password;
+            if (usr.Username == null)
+            {
+                usr.Username = " ";
+            }
+            if (usr.Password == null)
+            {
+                usr.Password = " ";
+            }
+            if (usr.SaveCredentials == null)
+            {
+                usr.SaveCredentials = false;
+            }
+
+            UserName.Text = usr.Username ?? " ";
+            Password.Text = usr.Password ?? " ";
             db.CloseDB();
             WillSaveCredentials.Checked = usr.SaveCredentials;
+        }
+        private void InitializeFreshAirForUser(LoginManager lMgr)
+        {
+            DatabaseManagement dbMgr = new DatabaseManagement();
+            dbMgr.SaveSettings(new Models.Settings
+            {
+                Id = lMgr.Result.Id,
+                DarkTheme = false
+            });
         }
 
         private void Login_Clicked(object sender, EventArgs e)
@@ -51,8 +73,12 @@ namespace FreshAir.Views
             Login.IsEnabled = true;
             if (lm.LoginSuccessful())
             {
+                if (lm.Result.IsFirstLogin)
+                {
+                    InitializeFreshAirForUser(lm);
+                }
                 DatabaseManagement settingsData = new DatabaseManagement();
-                var res = settingsData.RetrieveSettings();
+                var res = settingsData.RetrieveSettings(lm.Result.Id);
                 SettingManager settingMgr = new SettingManager(res);
                 settingMgr.LoadScheme();
 
